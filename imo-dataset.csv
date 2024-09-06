@@ -1,0 +1,531 @@
+IMO Data Number, Data Element, Definition
+IMO0001,Agent city,The city of the referenced agent at port.
+IMO0002,Agent contact family name,The agent's employee contact family name.
+IMO0003,Agent country code,A code representing the country address of the referenced agent at port.
+IMO0004,Agent country sub-division name,The country sub-division of the referenced agent at port.
+IMO0006,Agent email,The email address for the referenced agent at port.
+IMO0007,Agent identification number,The recognized identification number used by the ship’s agent at the port of notification.
+IMO0008,Agent landline number,The landline telephone number for the referenced agent at port.
+IMO0009,Agent mobile number,The mobile number for the referenced agent at port.
+IMO0010,Agent name,The name of the agent at the port of arrival.
+IMO0011,Agent postcode,An alphanumerical code representing the postal area of the referenced agent at port.
+IMO0012,Agent street and number,The street and number of the referenced agent at port.
+IMO0013,Arrival/departure code,A code in the message to show whether the information is submitted for the ship arrival or departure.
+IMO0014,Authentication date time,The date and time of authentication.
+IMO0015,Authenticator location,The location of the person when submitting the security-related information.
+IMO0016,Authenticator family name,The family name of the person attesting to the validity of the transmitted information.
+IMO0017,Authenticator party identification number,"An identifying number, such as an agent identifier, of the party attesting to the validity of the transmitted information."
+IMO0019,Cargo brief description,A description of the type of cargo carried on the ship in general terms.
+IMO0021,Transport equipment identification number,"Marks (letters and/or numbers) which identify a transport equipment (e.g. containers, semi-trailers, swap bodies)."
+IMO0021,Transport equipment identification number,"Marks (letters and/or numbers) which identify a transport equipment (e.g. containers, semi-trailers, swap bodies)."
+IMO0022,Cargo item description of goods,A description of the referenced packaged cargo.
+IMO0022,Cargo item description of goods,A description of the referenced packaged cargo.
+IMO0023,Cargo item gross volume,"A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of the cargo item."
+IMO0023,Cargo item gross volume,"A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of the cargo item."
+IMO0024,Cargo item gross weight,The combined weight or mass of the referenced packaged cargo and its packaging from the shipping data.
+IMO0024,Cargo item gross weight,The combined weight or mass of the referenced packaged cargo and its packaging from the shipping data.
+IMO0025,Cargo item HS code,"The standardized, international commodity code from the Harmonized Commodity Description and Coding System (HS) for the packaged cargo being reported."
+IMO0026,Cargo item marks and numbers,An alphanumeric or symbolic identifier assigned by the shipper as a means to track cargo not carried in bulk.
+IMO0028,Cargo item number of packages,A count of the type of package reported for the referenced cargo.
+IMO0029,"Cargo item package type, coded",A code representing the type of package used for the referenced cargo.
+IMO0031,IMO Company number,The unique company identification number shown in the Continuous Synopsis Record (CSR).
+IMO0032,Ship company name,The name of the Company.
+IMO0033,Company security officer email,The contact email address for the company security officer shown in the ship security plan.
+IMO0034,Company security officer landline number,The contact landline number for the company security officer shown in the ship security plan.
+IMO0035,Company security officer mobile number,The contact mobile number for the company security officer shown in the ship security plan.
+IMO0036,Company security officer family name,The family name of the company security officer shown in the ship security plan.
+IMO0037,"Crew effects description, coded",A code representing the type of the referenced crew’s effects.
+IMO0039,Crew effects onboard quantity,The quantity or count of the type of the referenced crew’s effects.
+IMO0040,Crew effects description,A description of the type of the referenced crew’s effects.
+IMO0041,Crew effects sequence number,A sequence number indicating the order of the referenced crew’s effects in a list.
+IMO0042,Crewmember rank or rating name,The description of the referenced crewmember's rank or rating on the ship.
+IMO0043,"Crewmember rank or rating, coded",A code representing the referenced crewmember's rank or rating on the ship.
+IMO0044,Person onboard sequence number,A sequence number indicating the order of the referenced person in the person onboard list.
+IMO0045,Stowage position onboard,The position or place where goods such as dangerous goods are stored onboard the ship.
+IMO0045,Stowage position onboard,The position or place where goods such as dangerous goods are stored onboard the ship.
+IMO0046,Dangerous goods carried indicator,"A ""yes/no"" indicator whether the ship is carrying any dangerous goods."
+IMO0047,Dangerous goods EmS number,The emergency schedule identified in the IMO EmS Guide – Emergency Response Procedures for Ships Carrying Dangerous Goods.
+IMO0048,Dangerous goods flashpoint,The flashpoint of the referenced dangerous goods according to the IMO IMDG Code expressed in degrees Celsius or Fahrenheit.
+IMO0049,"Dangerous goods hazard class, coded",The hazard class code of the referenced dangerous goods according to the specified regulation.
+IMO0051,"Dangerous goods marine pollutant type, coded",A code representing the type of marine pollutant properties for the referenced dangerous goods from the IMO IMDG Code or IBC Code / MARPOL Convention.
+IMO0052,Dangerous goods mass,The mass of the referenced dangerous goods.
+IMO0053,Dangerous goods number of packages,The count of the number of packages of the referenced dangerous goods.
+IMO0054,Dangerous goods packing group,The packing group according to the UN Recommendations on the Transport of Dangerous Goods and IMO IMDG Code.
+IMO0055,Dangerous goods proper shipping name,"The proper shipping name for goods under IMDG Code, or the product name for goods under IBC Code and IGC Code, or the bulk cargo shipping name for goods under IMSBC Code, or the name of oil for goods under Annex I to the MARPOL Convention."
+IMO0056,Dangerous goods shipper's reference number,A number assigned by the shipper to track the referenced dangerous goods.
+IMO0058,"Dangerous goods subsidiary risks, coded",Any risk in addition to the class of the referenced dangerous goods according to the IMO IMDG Code.
+IMO0059,Dangerous goods technical specifications,The recognized chemical or biological name or other name currently used for the referenced dangerous goods.
+IMO0060,Dangerous goods UNDG number,United Nations Dangerous Goods Identifier (UNDG) assigned by the UN Sub-Committee of Experts on the Transport of Dangerous Goods and shown in the IMO IMDG.
+IMO0061,Dangerous goods volume,The volume of the referenced dangerous goods.
+IMO0063,Date and time of arrival - actual,"The date and time the ship arrives at a specified location, ATA."
+IMO0064,Date and time of arrival - estimated,"The date and time the ship is estimated to arrive at a specified location, ETA."
+IMO0065,Date and time of departure - actual,"The date and time the ship departs from a specified location, ATD."
+IMO0066,Date and time of departure - estimated,"The date and time the ship is estimated to depart from a specified location, ETD."
+IMO0067,Valid certificate indicator,"A ""yes/no"" indicator whether the ship has a valid certificate of the indicated type."
+IMO0067,Valid certificate indicator,"A ""yes/no"" indicator whether the ship has a valid certificate of the indicated type."
+IMO0068,Reason why ship has no valid ISSC or interim ISSC,The explanation of why the ship is not provided with a valid ISSC or a valid interim ISSC.
+IMO0069,"Reason why ship has no valid ISSC or interim ISSC, coded",A coded explanation of why the ship is not provided with a valid ISSC or a valid interim ISSC.
+IMO0070,"Certificate issuer flag State, coded",The code representing the country of the flag that issued the certificate.
+IMO0070,"Certificate issuer flag State, coded",The code representing the country of the flag that issued the certificate.
+IMO0071,Certificate expiry date,The expiration date displayed on the certificate.
+IMO0071,Certificate expiry date,The expiration date displayed on the certificate.
+IMO0075,Last port of call name,The name and country of the port immediately previous to the port of arrival.
+IMO0076,"Last port of call, coded",A code representing the port immediately previous to the port of arrival.
+IMO0077,"Measurement unit, coded","A code representing the units of measured for a referenced quantity onboard, such as crew's effects, ship's stores, and cargo."
+IMO0078,Message date time,The date and time the message is sent.
+IMO0082,Message sender identifier,The identifier of the party transmitting the message.
+IMO0083,Master family name,The family name of the person in charge of the ship.
+IMO0084,"Next port of call, coded",The port immediately subsequent to the port of departure.
+IMO0085,Next port of call name,The name and country of the port immediately subsequent to the port of departure.
+IMO0086,Number of crew,The count of persons actually employed for duties onboard during a voyage in the working or service of a ship and included in the crew list.
+IMO0087,Number of passengers,The count of persons onboard the ship who are passengers as defined by SOLAS.
+IMO0088,Number of persons onboard,The total number of persons onboard the ship including crew and passengers.
+IMO0089,Person in transit indicator,A “yes/no” indicator of whether the referenced person is in transit to a foreign country.
+IMO0091,"Person port of embarkation, coded",The code representing the port from which the referenced person embarked the ship.
+IMO0092,Person port of disembarkation name,The name of the port from which referenced person plans to disembark.
+IMO0093,"Person port of disembarkation, coded",The code representing the port from which the referenced person plans to disembark the ship.
+IMO0094,Person port of embarkation name,The name of the port from which referenced person embarked.
+IMO0095,Person visa number,The number assigned to the referenced person’s visa by the issuing nation.
+IMO0096,"Person country of birth, coded",The code representing the referenced person’s country of birth as shown on the person’s identity document.
+IMO0097,Person date of birth,The referenced person’s date of birth as shown on the person’s identity document.
+IMO0098,Person family name,The family name of the referenced person.
+IMO0099,"Person gender, coded",A code representing the gender of the referenced person.
+IMO0100,Person given name,The given name of the referenced person.
+IMO0101,Person identity or travel document expiry date,The expiry date shown on the referenced person’s identity document.
+IMO0102,"Person identity or travel document issuing nation, coded",A code representing the nation issuing the referenced person’s presented identity or travel document.
+IMO0103,Person identity or travel document number,The number assigned to the referenced person’s identity or travel document by the issuing nation.
+IMO0104,"Person identity or travel document type, coded",A code representing the type of the referenced person’s presented identity or travel document.
+IMO0105,"Person nationality, coded",A code representing the nationality of the referenced person as shown on the person’s identity or travel document.
+IMO0106,Person place of birth name,The name of the referenced person’s place of birth as shown on the person’s identity or travel document.
+IMO0107,"Person type, coded","A code representing the type of a person onboard the ship, such as master, crew member or passenger."
+IMO0108,"Port of arrival, coded",A code representing the port where the ship arrives.
+IMO0109,Port of arrival name,The name and country of the port where the ship arrives.
+IMO0110,Port of call sequence number,A sequence number indicating the order of a port of call on a list.
+IMO0111,"Port of departure, coded",The code representing the port from which the ship departs.
+IMO0112,Port of departure name,A name and country of the port from which the ship departs.
+IMO0113,"Port of discharge, coded",The code representing the port of discharge for the referenced cargo.
+IMO0114,Port of discharge name,The name and country of the port of discharge for the referenced cargo.
+IMO0115,Port of last waste delivery name,The name and country of the last port where waste of any type was delivered.
+IMO0116,"Port of last waste delivery, coded",The code representing the last port where waste of any type was delivered.
+IMO0117,"Port of loading, coded",The code representing the port of loading for the referenced cargo.
+IMO0118,Port of loading name,The name and country of the port where the cargo was loaded onboard the ship.
+IMO0119,Port of next waste delivery name,The name and country of the next port where the ship plans to deliver waste of any type.
+IMO0120,"Port of next waste delivery, coded",The code representing the next port where the ship plans to deliver waste of any type.
+IMO0121,"Port of remaining waste delivery, coded",The code representing the port where the ship intends to deliver the remaining waste.
+IMO0122,Port of remaining waste delivery name,The name and country of the port where the ship intends to deliver the remaining waste.
+IMO0123,Port period of stay,The scheduled duration of stay in the port of arrival in days.
+IMO0124,Previous port facility call start date,The start date of a previous port facility call.
+IMO0125,Previous port facility call end date,The end date of a previous port facility call.
+IMO0126,Previous port of call name,The name and country of a previous port of call.
+IMO0127,"Previous port of call, coded",A code representing a previous port of call.
+IMO0128,"Authenticator role, coded",A code providing the role of the person attesting to the validity of the transmitted information.
+IMO0129,Certificate issuer name,"The name of the body/organization that issued the certificate (in case it is a notified body, an insurance company or other)."
+IMO0129,Certificate issuer name,"The name of the body/organization that issued the certificate (in case it is a notified body, an insurance company or other)."
+IMO0130,Security Plan approval indicator,"A ""yes/no"" indicator of whether the ship is provided with an approved security plan onboard."
+IMO0131,"Security, other matters to report",An explanation of any other security-related matters to report.
+IMO0133,"Ship additional security measures, coded",A code representing a description of special or additional security measures applied in lieu of those in the security plan.
+IMO0135,"Ship additional security measures, description",A description of special or additional security measures applied in lieu of those in the security plan.
+IMO0136,Ship call sign,The ship’s identification used primarily for radio communications.
+IMO0137,"Ship current security level, coded",A code representing the security level of the ship in the port of arrival as defined by the ISPS Code.
+IMO0138,"Ship flag State, coded",A code representing the nationality of the ship shown on its IMO ship’s certificate.
+IMO0139,Ship gross tonnage,The gross tonnage shown on the ship's International Tonnage Certificate or other document issued by the flag State or recognized organization.
+IMO0140,Ship IMO number,The ship identification number shown on its IMO ship’s certificate.
+IMO0141,Ship satellite service number,The recognized mobile satellite service call number assigned to the ship by the operator and recorded in the operator's ship directory where provided.
+IMO0142,Ship name,The ship’s name shown on the IMO ship’s certificates.
+IMO0143,Ship net tonnage,The net tonnage shown on the ship's International Tonnage Certificate or other document issued by the Flag State or Recognized Organization.
+IMO0144,Location in port,"The name of the berth, terminal or station where the ship is located in the referenced port."
+IMO0145,Certificate issue date,The date the certificate was issued.
+IMO0145,Certificate issue date,The date the certificate was issued.
+IMO0147,"Ship registry port, coded",A code representing the port of registry shown on the IMO ship certificate.
+IMO0148,Ship registry port name,The name and country for the Port of Registry shown on the IMO ship certificate.
+IMO0149,"Ship security level in a previous port, coded",A code representing the security level of the ship in a previous port as defined by the ISPS Code.
+IMO0150,"Ship security measures, coded ",A code representing the security measures taken during ship-to-ship activity by the ship in lieu of the ship security procedures.
+IMO0151,Ship security measures,A description of the security measures taken during ship-to-ship activity by the ship in lieu of the ship security procedures.
+IMO0153,Ship stay reference number,Reference number assigned by a port authority to the stay of a ship in the port.
+IMO0154,Ship stores article name,The name of the referenced ship stores article.
+IMO0155,"Ship stores article, coded ",A code representing the referenced ship stores article.
+IMO0156,Ship stores location onboard description,A description of the location on the ship of the referenced stores article.
+IMO0158,Ship stores onboard quantity,"The number, count or amount of an article of the referenced ship stores."
+IMO0159,Ship stores sequence number,A sequence number indicating the order of the referenced ship stores article in a list.
+IMO0160,"Ship type, coded",The type of the ship.
+IMO0161,"Ship-to-ship activity, coded ",A code representing the ship-to-ship activity which has been carried out during the period of the last ten calls.
+IMO0162,Ship-to-ship activity description,A description of the ship-to-ship activity which has been carried out during the period of the last ten calls.
+IMO0163,Ship-to-ship activity end date,The end date of the ship-to-ship activity which has been carried out during the period of the last ten calls.
+IMO0164,Ship-to-ship activity location name,The name and country to describe where the ship-to-ship activity has been carried out during the period of the last ten calls.
+IMO0165,Ship-to-ship activity sequence number,A sequence number indicating the order of ship-to-ship activity which has been carried out during the period of the last ten calls.
+IMO0166,Ship-to-ship activity start date,The start date of the ship-to-ship activity which has been carried out during the period of the last ten calls.
+IMO0167,"Ship-to-ship activity location, coded",A code representing the location of the ship-to-ship activity which has been carried out during the period of the last ten calls.
+IMO0168,Subsequent port of call name,The name and country of a scheduled subsequent port of call.
+IMO0169,"Subsequent port of call, coded",A code representing a scheduled subsequent port of call.
+IMO0170,Transport contract number,A reference number to identify a document evidencing a transport contract (e.g. Bill of Lading).
+IMO0172,"Primary purpose of call, coded",A code representing the primary reason for the ship to enter the referenced port.
+IMO0173,Waste estimated amount to be generated volume,The estimated volume of waste to be generated between notification and next port of call (m3).
+IMO0174,Waste amount to be delivered volume,The volume of waste the ship plans to deliver (m3).
+IMO0175,Waste amount retained volume,The volume of waste the ship plans to retain onboard (m3).
+IMO0178,All waste delivery indicator,A “yes/no” indicator whether the ship is delivering all waste onboard the ship.
+IMO0179,Waste last delivery date,The last date when waste of any type was delivered.
+IMO0180,Waste maximum dedicated storage capacity,Maximum dedicated storage capacity onboard for this type of waste in cubic metres (m3).
+IMO0181,Waste reception facility point of contact,The name of the person to contact at the waste reception facility regarding ship waste delivery.
+IMO0183,"Waste type, coded ",A code representing the type of waste being delivered.
+IMO0184,"Port facility, coded",A code representing the port facility at the port of call.
+IMO0185,Port facility name,The name and country of a port facility at the port of call.
+IMO0186,Dangerous goods additional information,A statement of any other information relevant to the characteristics or hazards of the referenced dangerous goods cargo item.
+IMO0187,"Dangerous goods package type, coded",A code representing the package type of the referenced dangerous goods.
+IMO0188,Previous port facility name,The name and country of a previous port facility called at during a previous port call.
+IMO0189,"Previous port facility, coded",A code representing a previous port facility called at during a previous port call.
+IMO0190,Waste description,A description of the waste being delivered.
+IMO0191,Voyage number,An operator-assigned reference code for the ship's voyage.
+IMO0192,"Message type, coded",Code specifying the name of a message type.
+IMO0194,"Ship-to-ship activity location, latitude",The latitude (geographical coordinate) of the location of the ship-to-ship activity which has been carried out during the period of the last ten calls.
+IMO0195,"Ship-to-ship activity location, longitude",The longitude (geographical coordinate) of the location of the ship-to-ship activity which has been carried out during the period of the last ten calls.
+IMO0196,General declaration remarks,"Statement of any other information relevant to ship arrival, stay or departure."
+IMO0197,Vehicle identification number (VIN),The alphanumeric identifier assigned by the manufacturer to identify a vehicle e.g. for tracking purposes.
+IMO0197,Vehicle identification number (VIN),The alphanumeric identifier assigned by the manufacturer to identify a vehicle e.g. for tracking purposes.
+IMO0198,"Dangerous goods regulation, coded","Code specifying a dangerous goods regulatory instrument, such as IMDG, IBC, etc."
+IMO0200,"Certificate issue location, coded",The code representing the location where the certificate was issued.
+IMO0200,"Certificate issue location, coded",The code representing the location where the certificate was issued.
+IMO0202,Re-inspection required indicator,"A ""yes/no"" indicator whether re-inspection is required."
+IMO0203,Visited affected area indicator,"A ""yes/no"" indicator whether the ship visited an affected area identified by the World Health Organization."
+IMO0204,"Port of call in affected area, coded",Port of call in an affected area as identified by the World Health Organization.
+IMO0205,Date of call in affected area,Date of the call in an affected area as identified by the World Health Organization.
+IMO0206,Person died indicator,"A ""yes/no"" indicator whether any person died onboard during the international voyage otherwise than as a result of accident."
+IMO0207,Disease onboard indicator,"A ""yes/no"" indicator whether there is, or has been during the international voyage, any case of disease which you suspect to be of an infectious nature."
+IMO0208,Ill persons greater than expected indicator,"A ""yes/no"" indicator whether the total number of ill passengers during the international voyage has been greater than normal/expected."
+IMO0209,Ill persons now indicator,"A ""yes/no"" indicator whether there is any ill person onboard now."
+IMO0210,Medical practioner consulted indicator,"A ""yes/no"" indicator whether there is any ill person onboard now."
+IMO0211,Infection condition onboard indicator,"A ""yes/no"" indicator whether you are aware of any condition onboard which may lead to infection or spread of disease."
+IMO0212,Sanitary measure applied indicator,"A ""yes/no"" indicator whether any sanitary measure (e.g. quarantine, isolation, disinfection or decontamination) has been applied onboard."
+IMO0213,Sanitary measure description,Description of the sanitary measure applied.
+IMO0214,"Sanitary measure, place",Place of applied sanitary measure.
+IMO0215,"Sanitary measure, date",Date of applied sanitary measure.
+IMO0216,Stowaway found indicator,"A ""yes/no"" indicator whether any stowaways have been found onboard. yes/no indicator whether any sanitary measure (e.g. quarantine, isolation, disinfection or decontamination) has been applied onboard."
+IMO0217,"Port stowaways joined ship, coded",Port where the stowaways joined the ship (if known).
+IMO0218,Sick animal indicator,"A ""yes/no"" indicator whether there is a sick animal or pet onboard."
+IMO0219,Person embarkation date and time - actual,The actual date and time when the person embarked the ship by invitation or boarded without invitation.
+IMO0220,Illness,Nature of illness.
+IMO0221,Symptoms onset date,Date of onset of symptoms.
+IMO0222,Health status reported indicator,"A ""yes/no"" indicator that the person health status is reported to a port medical officer/radio medical services."
+IMO0223,"Health status, coded","A code indicating whether the person recovered, is still ill or died."
+IMO0224,"Case disposition, coded","A code indicating the disposition of the case: person or body still onboard, was evacuated, or was buried at sea."
+IMO0225,Location of evacuation name,The name of the port or airport to which the person was evacuated.
+IMO0226,"Location of evacuation, coded",The code of the port or airport to which the person was evacuated.
+IMO0227,Treatment,"Drugs, medicines or other treatment given to patient."
+IMO0228,Person health details comments,Comments on the specific case in the Maritime Declaration of Health attachment.
+IMO0229,Anchorage name,A name used to identify an anchorage. An anchorage is defined as an area in which vessels anchor or may anchor. (IHO Concept Register).
+IMO0229,Anchorage name,A name used to identify an anchorage. An anchorage is defined as an area in which vessels anchor or may anchor. (IHO Concept Register).
+IMO0230,Terminal name,A name used to identify a terminal. A terminal covers that area on shore which provides buildings and constructions for the transfer of cargo or passengers from and to ships. (IHO Concept register).
+IMO0230,Terminal name,A name used to identify a terminal. A terminal covers that area on shore which provides buildings and constructions for the transfer of cargo or passengers from and to ships. (IHO Concept register).
+IMO0231,Pilot Boarding Place name,"The name, number or description used to identify a Pilot boarding place. A Pilot boarding place is the location offshore where a pilot may board a vessel in preparation to piloting it through local waters. (IHO Concept register)."
+IMO0231,Pilot boarding place name,"A name, number or description used to identify a Pilot boarding place. A Pilot boarding place is the location offshore where a pilot may board a vessel in preparation to piloting it through local waters. (IHO Concept register)."
+IMO0232,Berth name,"A name used to identify a berth. A berth is defined as a place, generally named or numbered, where a vessel may moor or anchor. (IHO Concept register)."
+IMO0232,Berth name,"The name used to identify a berth. A berth is defined as a place, generally named or numbered, where a vessel may moor or anchor. (IHO Concept register)."
+IMO0233,Berth position,"A name, number or description used to identify a berth position. A berth position is a specific position within a berth where a vessel may be moored or anchored. (IHO Concept register)."
+IMO0233,Berth position,"A name, number or description used to identify a berth position. A berth position is a specific position within a berth where a vessel may be moored or anchored. (IHO Concept register)."
+IMO0234,Date and time of arrival - requested,"The date and time the ship is requested to arrive at a specified location, RTA."
+IMO0235,Date and time of arrival - planned,"The date and time the ship plans to arrive at a specific location, PTA."
+IMO0236,Date and time of departure - requested,"The date and time the ship is requested to depart from a specified location, RTD."
+IMO0237,Date and time of departure - planned,"The date and time the ship plans to depart from a specific location, PTD."
+IMO0238,Number of ill persons,Number of ill persons during the voyage.
+IMO0239,Ship company street and number,The street and number of the referenced company.
+IMO0240,Ship company postcode,An alphanumerical code representing the postal area of the referenced company.
+IMO0241,Ship company city,The city of the referenced company.
+IMO0242,Ship company country code,A code representing the country address of the referenced company.
+IMO0243,Ship company country sub-division name,The country sub-division of the referenced company.
+IMO0244,Stowaway date and time found onboard,Date and time when the referenced stowaway was found onboard.
+IMO0245,"Stowaway port facility of boarding, coded",The code representing the port facility from which the referenced stowaway boarded the ship.
+IMO0246,Stowaway port facility of boarding name,The name of the port facility from which the referenced stowaway boarded the ship.
+IMO0247,Stowaway berth of boarding name,The name of the berth at which the referenced stowaway boarded the ship.
+IMO0248,"Stowaway country of boarding, coded",A code representing the country at which the referenced stowaway boarded the ship.
+IMO0250,Stowaway Intended final destination name,The name of the final destination that the stowaway intended to go to.
+IMO0251,Stowaway stated reasons for boarding the ship,"Reasons stated by the stowaway for boarding the ship. Note: If the stowaway declares himself to be a refugee or an asylum seeker, this information shall be treated as confidential to the extent necessary to the security of the stowaway."
+IMO0252,Stowaway name by which known,The name of the referenced stowaway by which he or she is known.
+IMO0253,Stowaway claimed nationality,A code representing the nationality claimed by the stowaway.
+IMO0254,Person home address street and number,The street and number of the referenced person's home address.
+IMO0255,Person home address postcode,An alphanumerical code representing the postal area of the referenced person's home address.
+IMO0256,Person home address city,The city address of the referenced person's home address.
+IMO0257,Person home address country sub-division name,The country sub-division of the referenced person's home address.
+IMO0258,"Person home address country, coded",A code representing the country of the referenced person's home address.
+IMO0259,Person identity or travel document issue date,The issue date shown on the referenced person's identity document.
+IMO0260,Stowaway photograph,Photograph of the stowaway.
+IMO0261,Stowaway physical description,A physical description of the stowaway.
+IMO0262,Stowaway first spoken language,A code representing the referenced stowaway's first spoken language.
+IMO0263,Stowaway first reading language,A code representing the referenced stowaway's first reading language.
+IMO0264,Stowaway first written language,A code representing the referenced stowaway's first written language.
+IMO0265,Stowaway other spoken language,A code representing another language spoken by the referenced stowaway.
+IMO0266,Stowaway other read language,A code representing another language read by the referenced stowaway.
+IMO0267,Stowaway other written language,A code representing another language written by the referenced stowaway.
+IMO0268,Stowaway method of boarding,"Method of boarding, including other persons involved (e.g. crew, port workers, etc.) and whether the stowaway was secreted in cargo/container or hidden in the ship."
+IMO0269,Stowaway possessions,Inventory of the stowaway’s possessions.
+IMO0270,Stowaway statement,Statement made by the stowaway.
+IMO0271,Stowaway Master statement,Statement made by the Master (including any observations on the credibility of the information provided by the stowaway).
+IMO0272,Care provided to the stowaway,"Care provided to the stowaway (first aid, clothing, food)."
+IMO0273,Stowaway interview date,Date of interview of the stowaway.
+IMO0274,"Ship satellite service provider, coded",The ships recognized mobile satellite service provider.
+IMO0275,Message receiver identifier,"The identifier of the party receiving the message (the system). Identification of specific receiver the message is intended for. This field should include  the possibility of ""any"" or ""all"" to identify a message that have no special receiver."
+IMO0276,Message validity period,"Validity period of the message after it is sent. After this period, the client and server should cancel any outstanding actions at this point, and if appropriate, restart the request sequence."
+IMO0277,Message identifier,The identifier of a message. Used for asynchronous error messages or acknowledgements related to this message.
+IMO0278,Message return contact point,"Address to which acknowledgements shall be delivered. This can be for instance an URI, and e-mail address.  If the ship chooses to poll the server, no text is given."
+IMO0279,"Type of message return contact point method, coded",This code represents the method by which the client wants to get the replies from the server.
+IMO0280,Reference message identifier,The reference to the client's message to which the message is providing a response.
+IMO0281,"Message status, coded",This code represents the status of received message.
+IMO0282,Message status description,A description of the details of why a message failed to be accepted.
+IMO0283,"Service request status, coded","This code represents the status of the service request that the server returns to the client in acknowledgement and response to the request, e.g. error in data, port call denied, port call in progress, clearance successfully completed etc. If there are errors, a more specific error response information is given in the service status explanation, text."
+IMO0284,Service request status description,A description of the status of the service request.
+IMO0285,Service name,The name of the maritime service.
+IMO0285,Service name,The name of the maritime service.
+IMO0286,"Service, coded",A code representing the maritime service.
+IMO0286,"Service, coded",A code representing the maritime service.
+IMO0287,Service provider name,The name of the party that delivers the maritime service.
+IMO0287,Service provider name,The name of the party that delivers the maritime service.
+IMO0288,Planned service indicator,A “yes/no” indicator whether the maritime service is scheduled prior to the port call.
+IMO0288,Planned service indicator,A “yes/no” indicator on whether the maritime service is scheduled prior to the port call.
+IMO0289,Position for the service,The berth or anchor name for the delivery of the maritime service in port.
+IMO0289,Position for the service,The berth or anchor name for the delivery of the maritime service in port.
+IMO0290,Other position reference,Further position information such as berth position or bollard number.
+IMO0290,Other position reference,Further position information such as berth position or bollard number.
+IMO0291,Service provider contact family name,The family name of the contact in the maritime service company.
+IMO0291,Service provider contact family name,The family name of the contact in the maritime service company.
+IMO0292,Service contact landline number,The landline telephone number for the maritime service company.
+IMO0292,Service contact landline number,The landline telephone number for the maritime service company.
+IMO0293,Service contact mobile number,The mobile number for the maritime service company.
+IMO0293,Service contact mobile number,The mobile number for the maritime service company.
+IMO0294,Service contact email,The contact email address for the maritime service company.
+IMO0294,Service contact email,The contact email address for the maritime service company.
+IMO0295,Service URL,Maritime service provider end-point to the maritime service.
+IMO0295,Service URL,Maritime service provider end-point to the maritime service.
+IMO0296,Service booking number,The service booking number given by the maritime service provider.
+IMO0296,Service booking number,The service booking number given by the maritime service provider.
+IMO0297,Date and time of service start - estimated,"The date and time a service provider estimates a specified maritime service will start, ETS."
+IMO0297,Date and time of service start - estimated,"The date and time a service provider estimates a specified maritime service will start, ETS."
+IMO0298,Date and time of service start - requested,"The date and time a ship requests a service provider to start a specified maritime service, RTS."
+IMO0298,Date and time of service start - requested,"The date and time a ship requests a service provider to start a specified maritime service, RTS."
+IMO0299,Date and time of service start - planned,"The date and time a service provider plans to start a specified service, PTS."
+IMO0299,Date and time of service start - planned,"The date and time a service provider plans to start a specified service, PTS."
+IMO0300,Date and time of service start - actual,"The date and time a maritime service provider starts a specified service, ATS."
+IMO0300,Date and time of service start - actual,"The date and time a maritime service provider starts a specified service, ATS."
+IMO0301,Date and time of service completion - estimated,"The date and time a service provider estimates a specified maritime service will be completed, ETC."
+IMO0301,Date and time of service completion - estimated,"The date and time a service provider estimates a specified maritime service will be completed, ETC."
+IMO0302,Date and time of service completion - requested,"The date and time a ship requests a service provider to complete a specified maritime service, RTC."
+IMO0302,Date and time of service completion - requested,"The date and time a ship requests a service provider to complete a specified maritime service, RTC."
+IMO0303,Date and time of service completion - planned,"The date and time a service provider plans to complete a specified maritime service, PTC."
+IMO0303,Date and time of service completion - planned,"The date and time a service provider plans to complete a specified maritime service, PTC."
+IMO0304,Date and time of service completion - actual,"The date and time a service provider completes a specified maritime service, ATC."
+IMO0304,Date and time of service completion - actual,"The date and time a service provider completes a specified maritime service, ATC."
+IMO0305,Message function code,Code providing the function of a message.
+IMO0306,Certificate identifier,"The identifier of the certificate, defined by the issuing organization."
+IMO0306,Certificate identifier,"The identifier of the certificate, defined by the issuing organization."
+IMO0307,"Certificate type, coded",A code representing the certificate type.
+IMO0307,"Certificate type, coded",A code representing the certificate type.
+IMO0308,"Certificate type acronym, coded",An acronym representing the certificate type.
+IMO0308,"Certificate type acronym, coded",An acronym representing the certificate type.
+IMO0309,"Certificate category, coded","Certificate categories are defined dependent on
+•	the status of the referred regulation
+•	the authorization of the issuing organization."
+IMO0309,"Certificate category, coded","Certificate categories are defined dependent on
+•	the status of the referred regulation
+•	the authorization of the issuing organization."
+IMO0310,Certificate description,A description of the certificate.
+IMO0310,Certificate description,Further description of the certificate.
+IMO0311,"Certificate status, coded",A code representing the status of the certificate.
+IMO0311,"Certificate status, coded",A code representing the status of the certificate.
+IMO0312,Certificate status date,Date when the current status has become effective.
+IMO0312,Certificate status date,Date when the current status has become effective.
+IMO0313,Active certificate sequence number,A sequence number assigned to the active certificate if there is more than one certificate of the same type. This number is defined by the certificate issuer.
+IMO0313,Active certificate sequence number,A sequence number assigned to the active certificate if there is more than one certificate of the same type. This number is defined by the certificate issuer.
+IMO0314,"Certificate issuer type, coded",Type of organization that has issued the certificate.
+IMO0314,"Certificate issuer type, coded",Type of organization that has issued the certificate.
+IMO0315,Certificate issuer flag State name,The name of the entity within the flag State authorized to issue the certificate.
+IMO0315,Certificate issuer flag State name,The name of the entity within the flag State authorized to issue the certificate.
+IMO0316,Certificate issuer identifier,The identifier representing the body/organization that issued the certificate (in case it is a RO/RSO/Class).
+IMO0316,Certificate issuer identifier,The identifier representing the body/organization that issued the certificate (in case it is a RO/RSO/Class).
+IMO0317,"Certificate validity type, coded",A code to indicate the type of validity of the certificate.
+IMO0317,"Certificate validity type, coded",A code to indicate the type of validity of the certificate.
+IMO0318,Certificate special condition,"To indicate which provisions covered by the certificate an exemption or special condition it has been issued for, if applicable."
+IMO0318,Certificate special condition,"To indicate which provisions covered by the certificate an exemption or special condition it has been issued for, if applicable."
+IMO0319,Certificate extended until date,The date until which the validity of the certificate has been extended.
+IMO0319,Certificate extended until date,The date until which the validity of the certificate has been extended.
+IMO0320,Certificate last endorsement date,The date when the certificate was last endorsed.
+IMO0320,Certificate last endorsement date,The date when the certificate was last endorsed.
+IMO0321,"Company ISM certificate ship type, coded",Ship type(s) authorized under the company ISM certificate.
+IMO0321,"Company ISM certificate ship type, coded",Ship type(s) authorized under the company ISM certificate.
+IMO0321,"Company ISM certificate ship type, coded",Ship type(s) authorized under the company ISM certificate.
+IMO0322,"Ship reporting system, coded",A code representing the mandatory reporting system name reporting to.
+IMO0323,Coastal station name,The coastal station receiving the ship report.
+IMO0324,"Ship reporting system for relay, coded",Identification of another reporting system to which the ship report must be relayed.
+IMO0325,"Report type, coded",A code representing the type of report sent to the ship reporting system.
+IMO0326,Ship MMSI number,The unique radio identification number (ship station identity).
+IMO0329,"Reporting ship position, bearing",The true bearing of the ship when reporting (relative location) indicated in the 360 degrees notation from true north and shall be that of the position from the landmark.
+IMO0330,"Reporting ship position, distance",The current distance in nautical miles of the ship when reporting from/to a clearly identified landmark (relative location).
+IMO0331,"Reporting ship position, landmark",Reference point to which the bearing and distance is estimated(relative location).
+IMO0332,Course over ground,The ship current course over ground indicated in the 360 degrees notation from true north.
+IMO0332,Course over ground,The ship’s current course over ground indicated in the 360 degrees notation from true north.
+IMO0333,Speed over ground,The ship current speed over ground in decimal knots.
+IMO0333,Speed over ground,The ship current speed over ground in decimal knots.
+IMO0334,"Ship reporting system entry location, latitude",The latitude (geographical coordinate) of the location of the ship when entering the system.
+IMO0335,"Ship reporting system entry location, longitude",The longitude (geographical coordinate) of the location of the ship when entering the system.
+IMO0336,"Ship reporting system entry location, time",The date and time when the ship is entering the system.
+IMO0337,"Ship reporting system entry location, bearing",The true bearing of the ship when entering the system (relative location) indicated in the 360 degrees notation from true north and shall be that of the position from the landmark.
+IMO0338,"Ship reporting system entry location, distance",The current distance in nautical miles of the ship from/to a clearly identified landmark when entering system (relative location).
+IMO0339,"Ship reporting system entry location, landmark",Reference point to which the bearing and distance is estimated.
+IMO0340,"Ship reporting system entry port, coded",A code representing the port where the ship enters the system.
+IMO0341,Ship reporting system entry port name,A name and country of the port where the ship enters the system.
+IMO0342,"Ship reporting system exit location, latitude",The latitude (geographical coordinate) of the location of the ship when exiting the system.
+IMO0343,"Ship reporting system exit location, longitude",The longitude (geographical coordinate) of the location of the ship when exiting the system.
+IMO0344,"Ship reporting system exit location, date and time",The date and time when the ship is exiting the system.
+IMO0345,"Ship reporting system exit location, bearing",The true bearing of the ship when exiting the system (relative location) indicated in the 360 degrees notation from true north and shall be that of the position from the landmark.
+IMO0346,"Ship reporting system exit location, distance",The current distance in nautical miles of the ship from/to a clearly identified landmark when exiting the system.
+IMO0347,"Ship reporting system exit location, landmark",Reference point to which the bearing and distance is estimated.
+IMO0348,"Ship reporting system exit port, coded",The code representing the port where the ship exits the system.
+IMO0349,"Ship reporting system exit port, name",A name and country of the port where the ship exits the system.
+IMO0350,Pilot onboard indicator,A “yes/no” indicator whether the ship has a deep sea or local pilot onboard.
+IMO0351,Voyage waypoint sequence number,"A sequence number indicating the order of the referenced voyage waypoint, in the list of turn points on route within a ship reporting system area."
+IMO0352,"Voyage waypoint, latitude","Location for ship planned voyage waypoint within a ship reporting system area, latitude."
+IMO0353,"Voyage waypoint, longitude","Location for ship planned voyage waypoint within a ship reporting system area, longitude."
+IMO0354,"Voyage waypoint, date and time",Date and time for planned voyage waypoint within a ship reporting system area.
+IMO0355,"Voyage track, type",The voyage track between waypoints within a ship reporting system area.
+IMO0356,"Ship next report, date and time",Next reporting date and time.
+IMO0357,Ship draught,Maximum ship present static draught in meters and centimeters.
+IMO0357,Ship draught,Maximum ship present static draught in meters and centimeters.
+IMO0358,Weather remarks,Brief details of weather and sea conditions prevailing.
+IMO0358,Weather remarks,Brief details of weather and sea conditions prevailing.
+IMO0359,"Wind speed, coded","A code indicating the wind speed, in units indicated in iw."
+IMO0359,"Wind speed, coded","A code indicating the wind speed, in units indicated in iw."
+IMO0360,"Wind direction, coded","A code indicating the true direction, in tens of degrees, from which wind is blowing (of will blow)."
+IMO0360,"Wind direction, coded","A code indicating the true direction, in tens of degrees, from which wind is blowing (of will blow)."
+IMO0361,"Visibility, coded",A code indicating the horizontal visibility at surface or Visibility towards the Sea.
+IMO0362,"Precipitation, coded","A code indicating the amount of precipitation which has fallen during the period preceding the time of observation, as indicated by tR."
+IMO0363,"State of the sea, coded",A code indicating the state of the sea by significant wave height.
+IMO0363,"State of the sea, coded",A code indicating the state of the sea by significant wave height.
+IMO0364,Dangerous goods  contact name,The name of the organization from which information on dangerous goods can be obtained.
+IMO0365,Dangerous goods contact mobile number,The mobile number of the organization from which information on dangerous goods can be obtained.
+IMO0366,Dangerous goods contact landline number,The landline telephone number of the organization from which information on dangerous goods can be obtained.
+IMO0367,Dangerous goods contact address street and number,The street and number of the organization from which information on dangerous goods can be obtained.
+IMO0368,Dangerous goods contact email,The contact email address of the organization from which information on dangerous goods can be obtained.
+IMO0369,"Dangerous goods contact type, coded",A code specifying the type of contact for dangerous goods.
+IMO0370,"Ship reporting system remarks type, coded",A code representing the type of remark to the ship’s report.
+IMO0371,Ship reporting system remarks,"Any other information to the ship’s report including brief details of incident and of other ships involved either in incident, assistance or salvage."
+IMO0372,Ship defects or limitations,"Brief details of defects, damage, deficiencies or other limitations."
+IMO0373,"Ship defects or limitations types, coded",A code representing the type of defects or limitations.
+IMO0374,Ship transfer ability indicator,A “Yes/No” indicator of the ability of the ship to transfer cargo ballast/fuel.
+IMO0375,Waypoint name,The name of the waypoint.
+IMO0376,Ship actual deadweight tonnage,The difference in tonnes between the displacement of a ship in water of a specific gravity of 1.025 at the actual draught and the lightweight of the ship.
+IMO0377,Ship length overall,Maximum length of a vessel's hull over the extreme points between fore and aft of the ship.
+IMO0378,Ship extreme breadth,The maximum breadth over the extreme points between port side and starboard side of the ship.
+IMO0379,Ship air draught,The height from the waterline to the highest point of the ship.
+IMO0380,Professional medical personnel,"The number of personnel with medical education (e.g. doctors, nurses)."
+IMO0381,Medically trained personnel,The number of personnel with medical training.
+IMO0382,Personnel without medical training,"The number of personnel without medical training but engaged in administrative, caring or other medical tasks onboard."
+IMO0383,Ship building contract date,Date when the building contract is placed between ship builder and ship owner.
+IMO0385,Ship delivery date,Date of delivery of the ship from the ship builder to the ship owner.
+IMO0386,"Ship responsibility organization type, coded",A code representing the type of organization within a Member State that has the responsibility of the ship.
+IMO0387,Ship in class indicator,A “yes/no” indicator whether the ship is in class of the classification society.
+IMO0388,Ship class entry date,Date of entry into class of the classification society.
+IMO0389,"Ship classification society, coded",A code representing the classification society currently having the ship in class.
+IMO0390,Ship classification society name,The name of the classification society currently having the ship in class.
+IMO0391,Ship identifier assigned by classification society,Identifier assigned to the ship by the classification society.
+IMO0392,"Ship class status, coded",A code representing the status of class certificate (referring to the class rules) for the ship.
+IMO0393,Ship class notation,Class notation(s) assigned by the classification society.
+IMO0394,Ship maximum deadweight,The difference in tonnes between the displacement of a ship in water of a specific gravity of 1.025 at the draught and the lightweight of the ship.
+IMO0395,"Ship company role, coded",A code providing the role of the ship company.
+IMO0396,Ship company identifier,The identifier to be provided by the sender of the data when the company does not have an IMO identification number.
+IMO0397,"Inspection type, coded",The code identifying the type of inspection.
+IMO0397,"Inspection type, coded",The code identifying the type of inspection.
+IMO0398,"Inspection category, coded",The code identifying the inspection category.
+IMO0398,"Inspection category, coded",The code identifying the inspection category.
+IMO0399,Inspection performed date,Date of the inspection performed.
+IMO0399,Inspection performed date,Date of the inspection performed.
+IMO0400,"Inspection performed location, coded",A code representing the place of the inspection performed.
+IMO0400,"Inspection performed location, coded",A code representing the place of the inspection performed.
+IMO0401,Inspection performed location name,The location of the place of the inspection.
+IMO0401,Inspection performed location name,The location of the place of the inspection.
+IMO0402,Next inspection due date,Due date of the next inspection.
+IMO0402,Next inspection due date,Due date of the next inspection.
+IMO0403,Next inspection range start date,Date at which the next inspection can be performed at the earliest.
+IMO0403,Next inspection range start date,Date at which the next inspection can be performed at the earliest.
+IMO0404,Next inspection range end date,Date at which the next inspection should be performed at the latest.
+IMO0404,Next inspection range end date,Date at which the next inspection should be performed at the latest.
+IMO0405,"Next inspection status, coded",Status of the next inspection.
+IMO0405,"Next inspection status, coded",Status of the next inspection.
+IMO0406,"Inspection comment type, coded",A code categorising the comment on conclusion of the inspection.
+IMO0406,"Inspection comment type, coded",A code categorising the comment on conclusion of the inspection.
+IMO0407,Inspection comment related certificate type acronyms,The certificate type acronyms to which the inspection comment applies.
+IMO0407,Inspection comment related certificate type acronyms,The certificate type acronyms to which the inspection comment applies.
+IMO0408,Inspection comment issuing date,Date the inspection comment has been issued.
+IMO0408,Inspection comment issuing date,Date the inspection comment has been issued.
+IMO0409,"Inspection comment issuing location, coded",A code representing the location where the inspection was undertaken which resulted in the imposition of the comment.
+IMO0409,"Inspection comment issuing location, coded",A code representing the location where the inspection was undertaken which resulted in the imposition of the comment.
+IMO0410,Inspection comment issuing location name,The location where the inspection comment was issued.
+IMO0410,Inspection comment issuing location name,The location where the inspection comment was issued.
+IMO0411,Inspection comment due date,Due date for the resolution of the comment.
+IMO0411,Inspection comment due date,Due date for the resolution of the comment.
+IMO0412,"Inspection comment expiry inspection type, coded",A code indicating the expiry inspection type. i.e : the inspection when it will be verified that the comment can be closed.
+IMO0412,"Inspection comment expiry inspection type, coded",A code indicating the expiry inspection type. i.e : the inspection when it will be verified that the comment can be closed.
+IMO0413,"Inspection comment status, coded",A code representing the status with respect to the resolution of the comment.
+IMO0413,"Inspection comment status, coded",A code representing the status with respect to the resolution of the comment.
+IMO0414,Inspection comment postponed due date,Due date for the resolution of the comment following the last postponement.
+IMO0414,Inspection comment postponed due date,Due date for the resolution of the comment following the last postponement.
+IMO0415,"Inspection comment postponed expiry inspection type, coded",A code indicating the postponed expiry inspection type. i.e : the inspection when it will be verified that the comment can be closed.
+IMO0415,"Inspection comment postponed expiry inspection type, coded",A code indicating the postponed expiry inspection type and the corresponding inspection category . i.e : the inspection when it will be verified that the comment can be closed.
+IMO0416,Inspection comment reference,Reference to the code of the regulation/rule and the specific applicable chapters/paragraphs.
+IMO0416,Inspection comment reference,Reference to the code of the regulation/rule and the specific applicable chapters/paragraphs.
+IMO0417,Inspection comment content,"Actual content of the comment including text, drawings, pictures, etc…"
+IMO0417,Inspection comment content,"Actual content of the comment including text, drawings, pictures, etc…"
+IMO0418,"Inspection comment issuer, coded",A code indicating the issuer of the inspection comment.
+IMO0418,"Inspection comment issuer, coded",A code indicating the issuer of the inspection comment.
+IMO0419,Inspection comment sequence number,A sequence number indicating the order of the comments in an inspection.
+IMO0419,Inspection comment sequence number,A sequence number indicating the order of the comments in an inspection.
+IMO0420,Inspection comment quantity,The number of comments found during the inspection.
+IMO0420,Inspection comment quantity,The number of comments found during the inspection.
+IMO0421,"PSC MoU or regime, coded",A code identifying the relevant Port State Control Memorandum of Understanding or regime.
+IMO0421,"PSC MoU or regime, coded",A code identifying the relevant Port State Control Memorandum of Understanding or regime.
+IMO0422,"Deficiency, coded",The code representing the deficiency found during the inspection.
+IMO0423,"Actions required by inspection, coded",A code indicating the actions required by the inspection authority to resolve the deficiency.
+IMO0424,Inspection comment resolved date,The date the inspection comment  was closed.
+IMO0424,Inspection comment resolved date,The date the inspection comment  was closed.
+IMO0425,Detention indicator,A “yes/no” indicator whether the ship was detained as a result of the inspection.
+IMO0426,Detention release date,The date the ship was released from detention.
+IMO0427,Agreed actions,Agreed actions as per rectification action plan.
+IMO0428,Ship banned indicator,A “yes/no” indicator whether the ship has been banned from a specific area.
+IMO0429,Ship ban issuer name,The port State/MOU that has issued the ban to the ship.
+IMO0430,Ship ban start date,The date the ship ban started.
+IMO0431,Ship ban end date,The date the ship ban ends.
+IMO0432,Ship ban area,The area where the ship is banned to sail.
+IMO0433,Dangerous goods marine pollutant volume,The volume of the referenced marine pollutant properties for the referenced dangerous goods.
+IMO0434,Cargo loss volume - estimated,The estimated volume of the referenced cargo that is lost.
+IMO0435,Cargo loss weight - estimated,The estimated weight of the referenced cargo lost per dangerous goods or marine pollutants name.
+IMO0436,Cargo loss quantity - estimated,The estimated quantity (number of packages) of the referenced dangerous goods lost per dangerous goods or marine pollutant name.
+IMO0437,Cargo loss condition - estimated,The estimated likely condition of the lost cargo.
+IMO0438,Cargo floating indicator,"A ""yes/no"" indicator whether lost cargo is floating."
+IMO0439,Cargo loss continuing indicator,"A ""yes/no"" indicator whether loss is continuing."
+IMO0440,Cargo loss cause description,A description of the cause of the cargo loss.
+IMO0441,"Cargo loss position, latitude",The latitude (geographical coordinate) of the location where cargo was lost overboard.
+IMO0442,"Cargo loss position, longitude",The longitude (geographical coordinate) of the location where cargo was lost overboard.
+IMO0443,Cargo loss date time,Date and time cargo was lost.
+IMO0444,"Cargo loss marine pollutant type, coded",A code representing the type of marine pollutant.
+IMO0445,Cargo loss technical name,Correct technical name of the cargo loss.
+IMO0446,Cargo loss UNDG number,UNDG number of the cargo loss.
+IMO0447,Cargo loss movement - estimated,"The estimate of the movement of the cargo loss, giving current conditions if known."
+IMO0448,Cargo loss surface area - estimated,The estimate of the surface area of the spill if possible.
+IMO0449,Cargo loss remarks,Statement of any other information relevant to the cargo loss.
+IMO0450,"Inspection comment expiry inspection category, coded",A code indicating the expiry inspection category.
+IMO0450,"Inspection comment expiry inspection category, coded",A code indicating the expiry inspection category.
+IMO0451,"Inspection comment postponed expiry inspection category, coded",A code indicating the postponed expiry inspection category.
+IMO0451,"Inspection comment postponed expiry inspection category, coded",A code indicating the postponed expiry inspection category.
+IMO0452,Total ballast water onboard,Total physical measurement of ballast water onboard including sediments in cubic metres (m3).
+IMO0453,Total ballast water capacity,Maximum ballast water capacity onboard including sediments in cubic metres (m3).
+IMO0454,Total number of ballast tanks on board,Total number of ballast tanks on board certified to carry ballast water.
+IMO0459,Ballast water management system used,"Description of the ballast water management system used. If any, provide manufacturer and model."
+IMO0461,The starting date required to meet regulation D-2,"The date from which the ship is required to comply with regulation D-2 of the Ballast Water Management Convention, 2004."
+IMO0475,Other management method,Any other ballast water management method used.
+IMO0484,Ballast water managed salinity,A measure of the salinity of water used for ballast water management practices in Practical Salinity Units (PSU).
+IMO0492,Ballast water discharged salinity,A measure of the salinity of the proposed ballast water discharge in Practical Salinity Units (PSU).
+IMO0538,Average speed,The average speed of the ship at the time of reporting.
+IMO0546,"Anchorage, coded",A code used to identify an anchorage. An anchorage is defined as an area in which vessels anchor or may anchor. (IHO Concept register).
+IMO0547,"Terminal, coded",A code used to identify a terminal. A terminal covers that area on shore which provides buildings and constructions for the transfer of cargo or passengers from and to ships. (IHO Concept register).
+IMO0548,"Berth, coded","A code used to identify a berth. A berth is defined as a place, generally named or numbered, where a vessel may moor or anchor. (IHO Concept register)."
+IMO0549,Other control action taken,Other control action If ballast water management were not conducted.
+IMO0552,"Ship date of construction, Ballast Water Management Convention",The date of construction as defined in regulation A-1.4 of the Ballast Water Management Convention.
+IMO0573,Ballast tank and hold identifier,Name or identification number of the ballast tank or hold.
+IMO0576,Person home address P.O. Box,The post office box of the referenced person's home address.
+IMO0584,Service provider contact given name,The given name of the contact in the maritime service company.
+IMO0594,Dangerous goods contact address P.O. Box,The post office box of the organization from which information on dangerous goods can be obtained.
