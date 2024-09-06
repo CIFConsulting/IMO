@@ -416,6 +416,7 @@ IMO0380,Professional medical personnel,"The number of personnel with medical edu
 IMO0381,Medically trained personnel,The number of personnel with medical training.
 IMO0382,Personnel without medical training,"The number of personnel without medical training but engaged in administrative, caring or other medical tasks onboard."
 IMO0383,Ship building contract date,Date when the building contract is placed between ship builder and ship owner.
+IMO0384,Ship keel laying date,Date on which keel was laid or ship was at similar stage of construction.
 IMO0385,Ship delivery date,Date of delivery of the ship from the ship builder to the ship owner.
 IMO0386,"Ship responsibility organization type, coded",A code representing the type of organization within a Member State that has the responsibility of the ship.
 IMO0387,Ship in class indicator,A “yes/no” indicator whether the ship is in class of the classification society.
@@ -512,20 +513,144 @@ IMO0450,"Inspection comment expiry inspection category, coded",A code indicating
 IMO0451,"Inspection comment postponed expiry inspection category, coded",A code indicating the postponed expiry inspection category.
 IMO0451,"Inspection comment postponed expiry inspection category, coded",A code indicating the postponed expiry inspection category.
 IMO0452,Total ballast water onboard,Total physical measurement of ballast water onboard including sediments in cubic metres (m3).
+IMO0452,Total ballast water on board,Total physical measurement of ballast water on board including sediments in cubic metres (m3).
 IMO0453,Total ballast water capacity,Maximum ballast water capacity onboard including sediments in cubic metres (m3).
 IMO0454,Total number of ballast tanks on board,Total number of ballast tanks on board certified to carry ballast water.
+IMO0455,Number of tanks in ballast,The number of tanks with ballast water as the ship arrives into the Arrival Port.
+IMO0456,Approved ballast water management plan on board indicator,"A ""yes/no"" indicator of whether the ship is carrying an approved ballast water management plan on board."
+IMO0457,Implementation of ballast water management plan indicator,"A ""yes/no"" indicator whether the ship management plan is implemented."
+IMO0458,Ballast water record book on board indicator,"A ‘’yes/no"" indicator of whether the ship is carrying out the ballast water record book on board."
 IMO0459,Ballast water management system used,"Description of the ballast water management system used. If any, provide manufacturer and model."
+IMO0460,"Reason(s) why no ballast water management was conducted, coded",The explanation of why any ballast tanks or holds to be discharged are not managed in accordance with B-3.
 IMO0461,The starting date required to meet regulation D-2,"The date from which the ship is required to comply with regulation D-2 of the Ballast Water Management Convention, 2004."
+IMO0462,Total number of ballast tanks and holds to be discharged,The total number of ballast tanks and holds to be discharged.
+IMO0463,"Number of ballast tanks and holds to be discharged, D-1",The number of tanks and holds to be discharged that were managed in accordance with regulation D-1 (BW exchange standard).
+IMO0464,"Number of ballast tanks and holds to be discharged, D-2",The number of ballast tanks and holds to be discharged that were managed in accordance with regulation D-2 (BW performance standard).
+IMO0465,"Number of ballast tanks and holds to be discharged, not managed",The number of ballast tanks and holds to be discharged that have not been managed.
+IMO0466,"Ballast tank or hold type, coded",Type of ballast tank containing ballast water.
+IMO0467,Ballast tank capacity,A measure of the maximum tank/hold capacity in cubic meters.
+IMO0468,Date of ballast water uptake,Date of ballast water uptake into tanks/holds before ballast water management practices.
+IMO0469,"Location of ballast water uptake, latitude",The latitude (geographical coordinate) of the location of  ballast water uptake in to tanks/holds before ballast water management practices.
+IMO0470,"Location ballast water uptake, longitude",The longitude (geographical coordinate) of the location of  ballast water uptake in to tanks/holds before ballast water management practices.
+IMO0471,"Ballast water uptake port, coded",The location of the port of the ballast water uptake.
+IMO0472,Ballast water uptake port name,The name and country of the port of the ballast water uptake.
+IMO0473,Current volume in ballast tank,Current volume in the ballast tanks/holds after the last uptake of ballast water in cubic metres (m3).
+IMO0474,"Method(s) of ballast water management, coded",The method of ballast water management.
 IMO0475,Other management method,Any other ballast water management method used.
+IMO0476,Date implementing ballast water management,Date implementing ballast water management.
+IMO0477,"Location where ballast water exchange or flushing started, latitude",The latitude (geographical coordinate) of the location where ballast water exchange or flushing began.
+IMO0478,"Location where ballast water exchange or flushing started, longitude",The longitude (geographical coordinate) of the location where ballast water exchange or flushing began.
+IMO0479,"Location where ballast water exchange or flushing ended, latitude",The latitude (geographical coordinate) of the location where ballast water exchange or flushing ended.
+IMO0480,"Location where ballast water exchange or flushing ended, longitude",The longitude (geographical coordinate) of the location where ballast water exchange or flushing ended.
+IMO0481,Volume ballast water exchanged,The volume of ballast water exchanged in cubic metres.
+IMO0482,Exchange percentage of ballast water exchanged,"The percentage of ballast water exchanged, calculated by dividing the total volume of water moved by ""Sequential"" or ""Flow-through"" or used in ""Saltwater flushing"" by the capacity of ballast tank or hold, then multiply by 100."
+IMO0483,Minimum depth of water where ballast water exchange took place,"The minimum depth of water where the ballast water exchange took place, in metres."
 IMO0484,Ballast water managed salinity,A measure of the salinity of water used for ballast water management practices in Practical Salinity Units (PSU).
+IMO0485,Date of ballast water discharge,Date of the proposed ballast water discharge.
+IMO0487,"Location ballast water discharge, latitude",The latitude (geographical coordinate) of the location of discharging ballast water.
+IMO0488,"Location ballast water discharge, longitude",The longitude (geographical coordinate) of the proposed location of discharging ballast water.
+IMO0489,"Port of discharge of ballast water, coded",The proposed port of discharge of ballast water.
+IMO0490,Port of discharge of ballast water name,The name and country of the proposed port of discharge of ballast water
+IMO0491,Ballast water discharge volume,The volume of the proposed ballast water discharge.
 IMO0492,Ballast water discharged salinity,A measure of the salinity of the proposed ballast water discharge in Practical Salinity Units (PSU).
+IMO0493,Port reception facility provider,The name of the port reception facility provider.
+IMO0494,Treatment facility provider,"The name of the treatment facility provider, if different from the port reception facility provider."
+IMO0495,"Waste delivery date and time, from",Date and time when the waste delivery started.
+IMO0496,"Waste delivery date and time, to",Date and time when the waste delivery was completed.
+IMO0497,Amount of waste received volume,The volume of waste received (m3).
+IMO0498,"Equipment type and size, coded","Code specifying the characteristics, i.e. size and type of transport equipment."
+IMO0499,Gross mass verification number,The identification number of verification for the verified gross mass.
+IMO0500,Gross mass verified date,Date and time of determining the verified gross mass of container.
+IMO0501,"Gross mass verifying country, coded",The code of the country where the verified gross mass is determined.
+IMO0502,Gross mass verifying party identifier,The identifier of the gross mass verifying party.
+IMO0503,Gross mass verifying party name,The name of the responsible shipper or third party verifying the gross mass.
+IMO0504,Gross mass verifying person family name,The family name of person in charge of verifying the gross mass authorized by the shipper.
+IMO0505,"VGM measuring method, coded",A code representing the Gross Mass Verifying Method.
+IMO0506,Verified Gross Mass,The Verified Gross Mass of the container (VGM).
+IMO0507,VGM document  issue date and time,The date and time of issuing the document for verified gross mass.
+IMO0508,Booking reference number,Booking reference assigned by carrier.
+IMO0509,Seal identification number,The identification number of the seal affixed to the container.
+IMO0510,"Authenticator, country coded",A code representing the country address of the referenced authenticator.
+IMO0511,Authenticator Street and number,The street and number of the referenced authenticator.
+IMO0512,Authenticator city,The city of the referenced authenticator.
+IMO0513,Authenticator postcode,An alphanumerical code representing the postal area of the referenced  authenticator.
+IMO0515,Authenticator email,The email address for the referenced agent at port.
+IMO0516,Authenticator landline number,The landline telephone number for the referenced agent at port.
+IMO0517,Authenticator mobile number,The mobile number for the referenced agent at port.
+IMO0518,Date and time of arrival at next port of call - estimated,The date and time the ship is estimated to arrive at the next port of call.
+IMO0519,Person onboard indicator,A “yes/no” indicator whether the reported person is onboard at the time of reporting.
+IMO0520,Person visa issue date,The date when the referenced person’s visa was issued.
+IMO0521,"Person visa issue location, name",The name of the location where the referenced person's visa was issued.
+IMO0522,Person port of disembarkation date and time - planned,Date and time when the referenced person plans to disembark the ship.
+IMO0523,Person landline number,The landline telephone number for the referenced person.
+IMO0524,Person mobile number,The mobile number for the referenced person.
+IMO0525,Person email,The email address for the referenced person.
+IMO0526,Cabin number,The number of the cabin or room onboard.
+IMO0527,Unique travelling booking number,Unique number to identify a specific booking related to one or more passengers.
+IMO0528,Unique passenger reference number,Passenger's Unique Reference Number (UNR) in relation to the travel booking.
+IMO0529,Gross mass verifying party email,The email address for the referenced gross mass verifying party.
+IMO0530,Gross mass verifying party landline number,The landline telephone number for the referenced gross mass verifying party.
+IMO0531,Gross mass verifying party mobile number,The mobile number for the referenced gross mass verifying party.
+IMO0532,Gross mass verifying party country code,A code representing the country address of the referenced gross mass verifying party.
+IMO0533,Gross mass verifying party street and number,The street and number of the referenced gross mass verifying party.
+IMO0534,Gross mass verifying party city,The city of the referenced gross mass verifying party.
+IMO0535,Gross mass verifying party postcode,An alphanumerical code representing the postal area of the referenced verifying party.
+IMO0536,Trade service identifier,The carrier internal trade service identifier of the service.
+IMO0537,Distance to destination,The remaining distance in nautical miles reported by the vessel to a specific destination.
 IMO0538,Average speed,The average speed of the ship at the time of reporting.
+IMO0540,Date and time to location in port - actual,The actual date and time the ship actually reached the specified location in port.
+IMO0541,Date and time to location in port - estimated,The date and time the ship estimates to reach the specified location in port.
+IMO0542,Date and time to location in port - requested,The date and time the ship is requested to reach the specified location in port.
+IMO0543,Date and time to location in port - planned,The date and time the ship plans to reach the specified location in port.
+IMO0544,"Location in port, latitude",The latitude (geographical coordinate) of an entity.
+IMO0545,"Location in port, longitude",The longitude (geographical coordinate) of an entity.
+IMO0546,"Anchorage, coded",A code used to identify an anchorage. An anchorage is defined as an area in which vessels anchor or may anchor. (IHO Concept register).
 IMO0546,"Anchorage, coded",A code used to identify an anchorage. An anchorage is defined as an area in which vessels anchor or may anchor. (IHO Concept register).
 IMO0547,"Terminal, coded",A code used to identify a terminal. A terminal covers that area on shore which provides buildings and constructions for the transfer of cargo or passengers from and to ships. (IHO Concept register).
+IMO0547,"Terminal, coded",A code used to identify a terminal. A terminal covers that area on shore which provides buildings and constructions for the transfer of cargo or passengers from and to ships. (IHO Concept register).
+IMO0548,"Berth, coded","A code used to identify a berth. A berth is defined as a place, generally named or numbered, where a vessel may moor or anchor. (IHO Concept register)."
 IMO0548,"Berth, coded","A code used to identify a berth. A berth is defined as a place, generally named or numbered, where a vessel may moor or anchor. (IHO Concept register)."
 IMO0549,Other control action taken,Other control action If ballast water management were not conducted.
+IMO0551,Other ship identifier,"Additional numbers or letters that may be used to identify the ship, as an alternative or in addition to the Ship call sign, the MMSI number or the IMO number."
 IMO0552,"Ship date of construction, Ballast Water Management Convention",The date of construction as defined in regulation A-1.4 of the Ballast Water Management Convention.
+IMO0553,Total number of ballast holds on board,Total number of cargo holds on board that are designed to carry ballast water.
+IMO0554,Number of holds in ballast,The number of holds with ballast water as ship arrives into the Arrival Port.
+IMO0556,"Principal ballast water management method(s) of the ship, coded",A code representing the principal ballast water management method(s) employed on this ship as stated on the Ballast Water Management certificate.
+IMO0557,Principal ballast water management method of the ship description,"A description of the principal management method(s) employed on this ship, when required."
+IMO0558,"Number of ballast tanks and holds to be discharged, both D-1 and D-2",The number of ballast tanks and holds to be discharged that were managed in accordance with both regulations D-1 and D-2.
+IMO0559,"Number of ballast tanks and holds to be discharged, other method",The number of ballast tanks and holds to be discharged that were managed using another method.
+IMO0560,"Number of ballast tanks and holds to be discharged, other method – description",The description of the ballast water management method for tanks and holds to be discharged if other than according to D-1 and/or D-2.
+IMO0561,"Number of ballast tanks and holds to be discharged, other method –reason",The reason that an other ballast water management method was used for the tanks and holds.
+IMO0562,"Reason(s) why no ballast water management was conducted, description",The description of the reason why any ballast tanks or holds are not managed in accordance with B-3.
+IMO0563,Ballast water management system manufacturer name,The name of the  manufacturer of the ballast water management system.
+IMO0564,Ballast water management system model name,The name of the model of the ballast water management system.
+IMO0565,Ballast water management system last bypass date,The date of the last bypass of the ballast water management system.
+IMO0566,Ballast water management system operational indicator,"A ""yes/no"" indicator whether the ship ballast water management system is fully operational."
+IMO0567,"Ballast water management plan contingency measure(s), coded",A code indicating the contingency measure(s) included in the Ballast Water Management Plan.
+IMO0568,Ballast water management plan contingency measures description,A description of the contingency measure(s) included in the Ballast Water Management Plan.
+IMO0569,Ballast water management plan contingency measure(s) deployed indicator,"A  ""yes/no"" indicator on whether any contingency measure(s)  in the Ballast Water Management Plan have been deployed."
+IMO0570,Ballast water ship coupling interface indicator,"A  ""yes/no"" indicator on whether the ship has an interface available for coupling to a ballast water reception facility."
+IMO0571,Last survey date,The date of the last survey.
+IMO0572,Surveying authority name,Name of the authority for the last survey.
 IMO0573,Ballast tank and hold identifier,Name or identification number of the ballast tank or hold.
+IMO0574,Agent P.O. Box,The post office box of the referenced agent at port.
+IMO0575,Ship company P.O. Box,The post office box of the referenced ship company.
 IMO0576,Person home address P.O. Box,The post office box of the referenced person's home address.
+IMO0578,Authenticator P.O. Box,The post office box of the referenced  authenticator.
+IMO0579,Gross mass verifying party P.O. Box,The post office box of the referenced gross mass verifying party.
+IMO0580,Master given name,The given name of the person in charge of the ship.
+IMO0581,Agent contact given name,The agent's employee contact given name.
+IMO0582,Authenticator given name,The given name of the person attesting to the validity of the transmitted information.
+IMO0583,Company security officer given name,The given name of the company security officer shown in the ship security plan.
 IMO0584,Service provider contact given name,The given name of the contact in the maritime service company.
+IMO0584,Service provider contact given name,The given name of the contact in the maritime service company.
+IMO0585,Gross mass verifying person given name,The given name of person in charge of verifying the gross mass authorized by the shipper.
+IMO0586,Crewmember performing work ashore indicator,A “yes/no” indicator whether the referenced crewmember performs work ashore.
+IMO0587,Vehicle carried onboard remarks,"Additional remarks on the description of the vehicle carried onboard, in addition to make, model and license plate."
+IMO0588,Vehicle model,The model of the vehicle.
+IMO0589,Vehicle make,The make or brand of the vehicle.
+IMO0590,Vehicle license plate number,The license plate number of the vehicle.
+IMO0591,Vehicle country of registration,The country of registration of the vehicle.
+IMO0592,Vehicle length,The length of the vehicle.
+IMO0593,Vehicle height,The height of the vehicle.
 IMO0594,Dangerous goods contact address P.O. Box,The post office box of the organization from which information on dangerous goods can be obtained.
