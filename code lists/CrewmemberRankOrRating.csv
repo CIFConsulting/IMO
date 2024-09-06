@@ -1,0 +1,297 @@
+Code,Code Name,Code Description
+10100,Captain / Master,All ships
+10101,Captain / Master on ships above 3000 GT,All ships> 3000 GT
+10102,Captain / Master on ships up to 3000 GT,All ships< 3000 GT
+10103,Captain / Master near coastal voyages on ships up to 500 GT,Merchant ships <500 GT
+10104,Staff Captain on Cruise Ships,Passenger cruise ships
+10105,"Captain / Master including Offshore	 MODUs or MOPUs ",MODUs or MOPUs
+10106,"Captain / Master on vessels up to 3000 GT including Offshore	 MODUs & MOPUs",Offshore & MODUs
+10107,Skipper on fishing vessels of 24 metres in length and over,Fishing vessels
+10108,Skipper on fishing vessels under 24 metres in length ,Fishing vessels
+10110,"Chief Mate	 Chief Officer or First Officer	 First Mate",All ships
+10111,"Chief Mate on ships above 3	000 GT",All ships> 3000 GT
+10112,"Chief Mate on ships up to 3	000 GT",All ships< 3000 GT
+10113,"Chief Mate including Offshore	 MODUs or MOPUs",MODUs or MOPUs
+10114,Chief Mate on fishing vessels 24 metres in length and over,Fishing vessels
+10115,Chief Mate on fishing vessels under 24 metres in length ,Fishing vessels
+10120,Officer in Charge of a Navigational Watch,All ships
+10121,Officer in Charge of a Navigational Watch as Second Mate / Officer,All ships
+10122,Officer in Charge of a Navigational Watch as Third Mate / Officer,All ships
+10123,Officer in Charge of a Navigational Watch as Fourth Mate / Officer,All ships
+10124,Officer in Charge of a Navigational Watch on ships up to 500 GT (Near Coastal),Merchant ships <500 GT
+10125,Officer in Charge of a Navigational Watch including MODUs or MOPUs,MODUs or MOPUs
+10126,Officer in charge of a navigational watch on fishing vessels of 24 metres in length and over ,Fishing vessels
+10127,Officer in charge of a navigational watch on fishing vessels under 24 metres in length ,Fishing vessels
+10130,Radio officer/radio operator  ,All ships
+10131,Radio officer/radio operator ROC,All ships
+10132,Radio officer/radio operator GOC,All ships
+10133,Radio officer/ Radio Operator on fishing vessels ,Fishing vessels
+10140,Deck Cadet / Apprentice,All ships
+10141,Deck cadet on fishing vessels ,Fishing vessels
+10150,"Chief Engineer	 Chief Engineer Officer",All ships
+10151,"Chief Engineer Officer on vessels above 3	000 kW propulsion power",All ships> 3000 KW
+10152,"Chief Engineer Officer on vessels with up to 3	000 kW propulsion power",All ships< 3000 KW
+10153,Staff Chief Engineer,Passenger cruise ships
+10154,Chief Engineer including MODUs or MOPUs,MODUs or MOPUs
+10155,Chief engineer officer of fishing vessels powered by main propulsion machinery of 750 kW propulsion power or more,Fishing vessels
+10156,Chief engineer officer of fishing vessels powered by main propulsion machinery with up to 750 kW propulsion power ,Fishing vessels
+10210,First Engineer,All ships
+10211,First Engineer including MODUs or MOPUs,MODUs or MOPUs
+10212,First Engineer on fishing vessels,Fishing vessels
+10220,"Second Engineer	 Second Engineer Officer",All ships
+10221,"Second Engineer	 Second Engineer Officer on vessels above 3	000 kW propulsion power",All ships> 3000 kW
+10222,"Second Engineer	 Second Engineer Officer on vessels up to 3	000 kW propulsion power",All ships< 3000 kW
+10223,Second Engineer including MODUs or MOPUs,MODUs or MOPUs
+10224,Second engineer on fishing vessels powered by main propulsion machinery of 750 kW propulsion power or more,Fishing vessels
+10230,Officer in Charge of an engineering Watch as Third Engineer,All ships
+10231,Third Engineer including MODUs or MOPUs,MODUs or MOPUs
+10232,Third Engineer on fishing vessels,Fishing vessels
+10240,Officer in Charge of an engineering Watch as Fourth Engineer,All ships
+10250,LNG Systems Engineer,LNG powered ships
+10260,(Liquefied) Gas Engineer,Liquefied gas tankers
+10270,Reefer Engineer,Container ships
+10280,Engineer Cadet / Apprentice / Assistant Engineer,All ships
+10290,Engineer Cadet / Apprentice / Assistant Engineer,All ships
+10300,Chief Electro-Technical Officer/Chief Electrician,All ships
+10310,First Electro-Technical Officer / First Electrician,All ships
+10330,Electro-Technical Officer (ETO)  ,All ships
+10331,"Electro-Technical Officer (ETO) including Offshore	 MODUs and MOPUs",MODUs or MOPUs
+10332,Second Electro-Technical Officer (2nd ETO),All ships
+10340,Chief Electrician,All ships
+10341,Ship's Electrician/Electro-technical Rating (E.T.R.),All ships
+10342,Assistant Ship's Electrician,All ships
+10343,Trainee Electrician,All ships
+10400,Boatswain (Bosun),All ships
+10401,Chief Boatswain (Chief Bosun),Historical vessels
+10402,2nd Boatswain (2nd Bosun),Passenger vessels
+10403,Boatswain's Assistant (Bosun's Assistant),Passenger vessels
+10410,Dual-Purpose Rating (DP Rating) (Both Deck & Engine Departments),All ships
+10420,Able Bodied Seafarer (AB Deck),All ships
+10430,Quartermaster (designated helmsman),Historical vessels
+10440,Sailmaker,Historical vessels
+10450,Ordinary Seafarer (OS Deck) / Rating Forming Part of a Navigational Watch,All ships
+10460,"Deckhand	 Deck Utility (uncertified rating)",All ships
+10461,Efficient Deckhand (EDH) ,All ships < 500 GT
+10462,Deck Trainee,All ships
+10470,Pumpman,Only on tankers
+10480,Ship's Carpenter,All ships
+10481,Second Ship's Carpenter (Passenger ships),Passenger vessels
+10500,Fitter,All ships
+10505,Donkeyman (Historical vessels),Historical vessels
+10510,Storekeeper,All ships
+10511,Maintenance & Workshop Technician,All ships
+10512,Mechanic/Turner or Welder,All ships
+10530,"A.B. Engine	 Motorman",All ships
+10531,"Oiler	 qualified as an A.B. Engine ",All ships
+10532,Wiper,All ships
+10533,Rating Forming Part of a Watch in a Manned Engine-Room (OS Engine),All ships
+10534,Engine-Room Trainee,All ships
+10560,Fireman/stoker,Historical vessels
+10561,Trimmer,Historical vessels
+10600,Ship's Doctor (Surgeon),All ships
+10601,2nd Ship's Doctor (2nd Surgeon),Passenger cruise ships
+10602,1st Ship's Nurse/ Medical Orderly,Passenger cruise ships
+10603,2nd Ship's Nurse/ Medical Orderly,Passenger cruise ships
+10604,Hospital Secretary/Assistant,Passenger cruise ships
+10605,Masseur,Passenger cruise ships
+10606,Physiotherapeutic Assistant,Passenger cruise ships
+10700,Chief Cook,All ships
+10701,Ship's Cook,All ships
+10702,Assistant Cook,All ships
+10703,Baker on merchant ships which regularly carry up to 12 passengers,All ships
+10800,Kitchen Management staff,Passenger vessels
+10801,Executive Chef / Chef de Cuisine ,Passenger cruise ships
+10802,Food & Beverage Manager,Passenger cruise ships
+10803,Provisions Master,Passenger cruise ships
+10804,Deputy Head Chef / Sous Chef ,Passenger cruise ships
+10805,Station Chef / Chef de Partie,Passenger cruise ships
+10806,Swing Chef / Tournant ,Passenger cruise ships
+10807,Vegetable Chef / Entremetier ,Passenger cruise ships
+10808,Fry Chef / Friturier ,Passenger cruise ships
+10809,Pantry Chef / Garde manger ,Passenger cruise ships
+10810,Pastry Chef / Pâtissier,Passenger cruise ships
+10811,Fish Chef / Poissonnier ,Passenger cruise ships
+10812,Meat or Roast Chef / Rôtisseur ,Passenger cruise ships
+10813,Sauce Chef / Saucier ,Passenger cruise ships
+10814,Assistant or Junior Chef / Commis Chef ,Passenger cruise ships
+10815,Galley Chef for the passenger ship's crew,Passenger cruise ships
+10816,Butcher / Boucher ,Passenger cruise ships
+10817,Galley/Kitchen Staff,Passenger cruise ships
+10818,Chief Purser ,All ships
+10819,2nd Purser,Passenger cruise ships
+10820,3rd Purser,Passenger cruise ships
+10821,Chief Steward/Stewardess,All ships
+10822,Steward/Stewardess,
+10823,Messman or Pantryman-woman,All ships
+10824,Laundryman only on ships which regularly carry up to 12 passengers,All ships
+10900,Dining Room staff,Passenger cruise ships
+10901,Dining Room manager / Maître d'hotel,Passenger cruise ships
+10902,Dining Room Head Waiter/Waitress,Passenger cruise ships
+10903,1st Wine Steward/Stewardess / Sommelier,Passenger cruise ships
+10904,2nd Wine Steward/Stewardess / 2. Sommelier,Passenger cruise ships
+10905,Dining Room Waiter/Waitress,Passenger cruise ships
+11000,Bar staff,Passenger cruise ships
+11001,Bar Manager,Passenger cruise ships
+11002,Bartender / Barkeeper / Barmaid,Passenger cruise ships
+11003,Cocktail Server,Passenger cruise ships
+11100,Buffet staff,Passenger cruise ships
+11101,Head Buffet Server,Passenger cruise ships
+11102,Buffer Servers,Passenger cruise ships
+11200,Hotel staff,Passenger cruise ships
+11201,Hotel Director,Passenger cruise ships
+11202,Accountant,Passenger cruise ships
+11203,Front Desk - Concierge,Passenger cruise ships
+11204,Receptionist,Passenger cruise ships
+11205,Programme Coordinator,Passenger cruise ships
+11206,Chief Cabin Steward/Stewardess,Passenger cruise ships
+11207,1st Cabin Steward/Stewardess,Passenger cruise ships
+11208,2nd Cabin Steward/Stewardess,Passenger cruise ships
+11209,Cabin Steward/Stewardess,Passenger cruise ships
+11210,Butler / Page ,Passenger cruise ships
+11211,Lift Attendant / Porter,Passenger cruise ships
+11212,Chief Housekeeper,Passenger cruise ships
+11213,Assistant Housekeeper,Passenger cruise ships
+11214,Cabin Cleaning Staff,Passenger cruise ships
+11215,General Cleaning Staff,Passenger cruise ships
+11216,Laundry Manager ,Passenger cruise ships
+11217,Laundry Staff,Passenger cruise ships
+11300,Commercial service staff,Passenger cruise ships
+11301,Gift Shop Manager ,Passenger cruise ships
+11302,Gift Shop Sales Assistant,Passenger cruise ships
+11303,Hairdresser,Passenger cruise ships
+11304,Photograph,Passenger cruise ships
+11305,Masseur,Passenger cruise ships
+11306,Physiotherapeutic Assistant,Passenger cruise ships
+11307,Sauna-Attendant,Passenger cruise ships
+11308,Fitness-Trainer,Passenger cruise ships
+11309,Pool-Attendant,Passenger cruise ships
+11400,Entertainment staff,Passenger cruise ships
+11401,Casino Manager ,Passenger cruise ships
+11402,Croupier,Passenger cruise ships
+11403,Casino Staff,Passenger cruise ships
+11404,Theatre Manager ,Passenger cruise ships
+11405,Artist ,Passenger cruise ships
+11406,Entertainer,Passenger cruise ships
+11407,Soloist Musician,Passenger cruise ships
+11408,Musician,Passenger cruise ships
+11409,Singer,Passenger cruise ships
+11410,Children Entertainers / Storytellers ,Passenger cruise ships
+11411,Event Manager ,Passenger cruise ships
+11412,Event/Excursion Expert or Guide ,Passenger cruise ships
+11500,Technical staff,Passenger cruise ships
+11501,Maintenance Engineer,Passenger cruise ships
+11502,Exhaust Gas Cleaning Systems Engineer (EGCS),Passenger cruise ships
+11503,Environmental Officer,Passenger cruise ships
+11504,Recycling Operations Officer,Passenger cruise ships
+11505,Junior Environmental Officer,Passenger cruise ships
+11506,Process Engineer (Rating),Passenger cruise ships
+11507,Waste Water Plant Assistant,Passenger cruise ships
+11508,Garbage Handler,Passenger cruise ships
+11509,Facility Manager (Rating),Passenger cruise ships
+11510,Facility Crewmember,Passenger cruise ships
+11511,Entertainment Electronics Officer,Passenger cruise ships
+11512,IT-Communications Officer,Passenger cruise ships
+11513,IT-Technician,Passenger cruise ships
+11514,Assistant IT-Technician,Passenger cruise ships
+11515,HVAC Engineer (Rating) {Air Conditioning etc},Passenger cruise ships
+11516,1st. HVAC Technician & Refrigeration Assistant,Passenger cruise ships
+11517,2nd. HVAC Technician & Refrigeration Assistant,Passenger cruise ships
+11518,QMED (Qualified Member of the Engine Department),Passenger cruise ships
+11600,Safety staff,Passenger cruise ships
+11601,Ship Safety Officer,Passenger cruise ships
+11602,"Safety Officer	 Life Saving Appliances (LSA)",Passenger cruise ships
+11603,"Safety Officer	 Fire-Fighting (FF)",Passenger cruise ships
+11604,Safety A.B. Rating for Life Saving Appliances (LSA) ,Passenger cruise ships
+11605,Deck Clerk,Passenger cruise ships
+11606,Chief Fire-Fighter (Chief Fireman),Passenger cruise ships
+11607,Fire-Fighter/Fireman,Passenger cruise ships
+11608,Ship Security Officer on Cruise ships ,Passenger cruise ships
+11609,Assistant Security Officer,Passenger cruise ships
+11610,Security Guard,Passenger cruise ships
+11700,Fisher  ,Fishing vessels
+11701,"Fish-Worker	 Fish-Processor (on board) ",Fishing vessels
+11702,Factory Foreman on board Fishing Vessels,Fishing vessels
+11703,Boat Handler,Fishing vessels
+11704,Diver (Fishing Industry),Fishing vessels
+11705,Netmaker,Fishing vessels
+11706,Spotter,Fishing vessels
+11707,Harpooner,Fishing vessels
+11708,Winchman,Fishing vessels
+11709,Efficient Deckhand Fishing Vessels,Fishing vessels
+11710,Deck Hand on Fishing Vessels,Fishing vessels
+11711,Marine Biologist on Fishery Research Vessels,Fishing vessels
+11712,Refrigeration Engineer on fishing vessels,Fishing vessels
+11713,Maintenance Technician / Installation Technician,Fishing vessels
+11714,Marine Refrigeration Technician,Fishing vessels
+11800,(Maritime) Barge Supervisor (with or without STCW Certificate Qualifications) ,MODUs & MOPUs
+11801,Deputy Platform Manager with Master Mariner Certification,MODUs & MOPUs
+11802,Stability Supervisor on MODUs or MOPUs ,MODUs & MOPUs
+11803,Ballast Control Technician ,MODUs & MOPUs
+11804,"Ballast Controlman on Offshore	 MODUs or MOPUs",MODUs & MOPUs
+11805,Mudstrainer Operator,MODUs & MOPUs
+11806,"Dynamic Positioning Officer (DPO) on Offshore	 MODUs or MOPUs",MODUs & MOPUs
+11807,Seismic Navigator,MODUs & MOPUs
+11808,Seismic Surveyor ,MODUs & MOPUs
+11809,Cartographer & Draughtsman,MODUs & MOPUs
+11810,Platform Manager / Rig Manager,MODUs & MOPUs
+11811,Barge Engineer with STCW Certification on MODUs or MOPUs,MODUs & MOPUs
+11812,Civil Engineer,MODUs & MOPUs
+11813,Drilling Engineer,MODUs & MOPUs
+11814,Hydraulic Engineer,MODUs & MOPUs
+11815,Instrumentation Engineer,MODUs & MOPUs
+11816,Operation Engineer,MODUs & MOPUs
+11817,Structural Engineer ,MODUs & MOPUs
+11818,Subsea Engineer,MODUs & MOPUs
+11819,Environmental Engineer,MODUs & MOPUs
+11820,Geotechnical Engineer ,MODUs & MOPUs
+11821,Geochemist,MODUs & MOPUs
+11822,Geologist ,MODUs & MOPUs
+11823,Laboratory Technician,MODUs & MOPUs
+11824,Refinery Supervisor ,MODUs & MOPUs
+11825,Cargo Technician,MODUs & MOPUs
+11826,Process Operator,MODUs & MOPUs
+11827,Gas-Plant-Operator ,MODUs & MOPUs
+11828,Production Supervisor,MODUs & MOPUs
+11829,Maintenance Supervisor,MODUs & MOPUs
+11830,Deck Supervisor,MODUs & MOPUs
+11831,Safety Supervisor,MODUs & MOPUs
+11832,Section Supervisor,MODUs & MOPUs
+11833,Assistant Section Supervisor,MODUs & MOPUs
+11834,Crane Supervisor,MODUs & MOPUs
+11835,Winching Supervisor,MODUs & MOPUs
+11836,Diving Supervisor,MODUs & MOPUs
+11837,Technical Supervisor,MODUs & MOPUs
+11838,Control-room Operator,MODUs & MOPUs
+11839,Engine-room Operator,MODUs & MOPUs
+11840,Electronics Engineer,MODUs & MOPUs
+11841,Rig Electrician,MODUs & MOPUs
+11842,ROV Technical Pilot,MODUs & MOPUs
+11843,Drilling Superintendent,MODUs & MOPUs
+11844,Drilling Foreman,MODUs & MOPUs
+11845,Directional Driller ,MODUs & MOPUs
+11846,Driller ,MODUs & MOPUs
+11847,Assistant Driller,MODUs & MOPUs
+11848,Drilling and Maintenance Operator (DMO),MODUs & MOPUs
+11849,Operation and Maintenance Operator (OMO),MODUs & MOPUs
+11850,Derrickman,MODUs & MOPUs
+11851,Floorhand,MODUs & MOPUs
+11852,Rig-Mover Roughneck / Rigger,MODUs & MOPUs
+11853,Heavy-Machinery Operator,MODUs & MOPUs
+11854,Crane Operator,MODUs & MOPUs
+11855,Diver,MODUs & MOPUs
+11856,Diving Supporter (Signalman & Diver's Assistant),MODUs & MOPUs
+11857,Welding Superintendent,MODUs & MOPUs
+11858,Toolpusher ,MODUs & MOPUs
+11859,Rig Welder,MODUs & MOPUs
+11860,Rigger ,MODUs & MOPUs
+11861,Maintenance Roustabout ,MODUs & MOPUs
+11862,Scaffolder,MODUs & MOPUs
+11863,Industrial Worker on Offshore Installations ,Offshore & MODUs
+11864,Executive Officer,MODUs & MOPUs
+11865,Audit Manager and Risk Management,MODUs & MOPUs
+11866,Environmental Safety and Training Officer,MODUs & MOPUs
+11867,Safety Training Engineer ,MODUs & MOPUs
+11868,Safety Training Representative ,MODUs & MOPUs
+11869,Emergency Response or Paramedic,MODUs & MOPUs
+11870,Chief Rig Fire-Fighter,MODUs & MOPUs
+11900,Truck Mechanic,Ro/Ro-Passenger ships
