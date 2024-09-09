@@ -27,6 +27,8 @@ A high level sequence diagram for the VGM process is as follows
 
 ## IMO Dataset
 
+The dataset for the VGM under the IMO Reference Model is as follows:
+
 | Data Number	| Data Element	| Definition |
 | --- | --- | --- |
 | IMO0498 | Equipment type and size, coded | Code specifying the characteristics, i.e. size and type of transport equipment. |
@@ -57,7 +59,7 @@ A suggested structure for the VGM dataset would be as follows:
 
 *NOTE: Insert IMO VERMAS UML Submodel Diagram Here*
 
-## Implementable Message Standards 
+## Implementable Message/API Standards 
 
 ### UNECE
 SMDG developed and published the VERMAS message using UN/EDIFACT which serves the purpose of VGM reporting.  Message implementation guides and further details of the standard can be found at;
