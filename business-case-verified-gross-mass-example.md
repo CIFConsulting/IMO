@@ -27,7 +27,33 @@ A high level sequence diagram for the VGM process is as follows
 
 ## IMO Dataset
 
+| Data Number	| Data Element	| Definition |
+| --- | --- | --- |
+| IMO0498 | Equipment type and size, coded | Code specifying the characteristics, i.e. size and type of transport equipment. |
+| IMO0499	| Gross mass verification number | The identification number of verification for the verified gross mass. |
+| IMO0500	| Gross mass verified date	| Date and time of determining the verified gross mass of container.|
+| IMO0501	| Gross mass verifying country, coded |	The code of the country where the verified gross mass is determined.|
+| IMO0502	| Gross mass verifying party identifier	| The identifier of the gross mass verifying party. |
+| IMO0503	| Gross mass verifying party name	| The name of the responsible shipper or third party verifying the gross mass.|
+| IMO0504	| Gross mass verifying person family name	| The family name of person in charge of verifying the gross mass authorized by the shipper.|
+| IMO0505	| VGM measuring method, coded	| A code representing the Gross Mass Verifying Method.|
+| IMO0506	| Verified Gross Mass	| The Verified Gross Mass of the container (VGM).|
+| IMO0507	| VGM document  issue date and time	| The date and time of issuing the document for verified gross mass.|
+| IMO0508	| Booking reference number | Booking reference assigned by carrier.|
+| IMO0509	| Seal identification number | The identification number of the seal affixed to the container.|
+| IMO0529	| Gross mass verifying party email | The email address for the referenced gross mass verifying party.|
+| IMO0530	| Gross mass verifying party landline number	| The landline telephone number for the referenced gross mass verifying party.|
+| IMO0531	| Gross mass verifying party mobile number	| The mobile number for the referenced gross mass verifying party.|
+| IMO0532	| Gross mass verifying party country code	| A code representing the country address of the referenced gross mass verifying party.|
+| IMO0533	| Gross mass verifying party street and number	| The street and number of the referenced gross mass verifying party.|
+| IMO0534	| Gross mass verifying party city	| The city of the referenced gross mass verifying party.|
+| IMO0535	| Gross mass verifying party postcode	| An alphanumerical code representing the postal area of the referenced verifying party.|
+| IMO0579	| Gross mass verifying party P.O. Box	| The post office box of the referenced gross mass verifying party.|
+| IMO0585	| Gross mass verifying person given name	| The given name of person in charge of verifying the gross mass authorized by the shipper.|
 
+## IMO Data Structure 
+
+**INSERT UML DIAGRAM FROM SUBMODEL HERE**
 
 ## Implementable Message Standards 
 
