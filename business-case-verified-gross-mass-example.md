@@ -52,6 +52,7 @@ A high level sequence diagram for the VGM process is as follows
 | IMO0585	| Gross mass verifying person given name	| The given name of person in charge of verifying the gross mass authorized by the shipper.|
 
 ## IMO Data Structure 
+A suggested structure for the VGM dataset would be as follows: 
 <img width="1234" alt="Screenshot 2024-09-09 at 21 39 18" src="https://github.com/user-attachments/assets/591304f1-2306-4239-ba24-f529743a3696">
 
 *NOTE: Insert IMO VERMAS UML Submodel Diagram Here*
