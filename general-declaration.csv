@@ -1,0 +1,56 @@
+Data Number,Data Element,Definition
+IMO0001,Agent city,The city of the referenced agent at port.
+IMO0002,Agent contact family name,The agent's employee contact family name.
+IMO0003,Agent country code,A code representing the country address of the referenced agent at port.
+IMO0004,Agent country sub-division name,The country sub-division of the referenced agent at port.
+IMO0006,Agent email,The email address for the referenced agent at port.
+IMO0007,Agent identification number,The recognized identification number used by the ship’s agent at the port of notification.
+IMO0008,Agent landline number,The landline telephone number for the referenced agent at port.
+IMO0009,Agent mobile number,The mobile number for the referenced agent at port.
+IMO0010,Agent name,The name of the agent at the port of arrival.
+IMO0011,Agent postcode,An alphanumerical code representing the postal area of the referenced agent at port.
+IMO0012,Agent street and number,The street and number of the referenced agent at port.
+IMO0013,Arrival/departure code,A code in the message to show whether the information is submitted for the ship arrival or departure.
+IMO0014,Authentication date time,The date and time of authentication.
+IMO0016,Authenticator family name,The family name of the person attesting to the validity of the transmitted information.
+IMO0017,Authenticator party identification number,"An identifying number, such as an agent identifier, of the party attesting to the validity of the transmitted information."
+IMO0019,Cargo brief description,A description of the type of cargo carried on the ship in general terms.
+IMO0063,Date and time of arrival - actual,"The date and time the ship arrives at a specified location, ATA."
+IMO0064,Date and time of arrival - estimated,"The date and time the ship is estimated to arrive at a specified location, ETA."
+IMO0065,Date and time of departure - actual,"The date and time the ship departs from a specified location, ATD."
+IMO0066,Date and time of departure - estimated,"The date and time the ship is estimated to depart from a specified location, ETD."
+IMO0075,Last port of call name,The name and country of the port immediately previous to the port of arrival.
+IMO0076,"Last port of call, coded",A code representing the port immediately previous to the port of arrival.
+IMO0083,Master family name,The family name of the person in charge of the ship.
+IMO0084,"Next port of call, coded",The port immediately subsequent to the port of departure.
+IMO0085,Next port of call name,The name and country of the port immediately subsequent to the port of departure.
+IMO0086,Number of crew,The count of persons actually employed for duties onboard during a voyage in the working or service of a ship and included in the crew list.
+IMO0087,Number of passengers,The count of persons onboard the ship who are passengers as defined by SOLAS.
+IMO0108,"Port of arrival, coded",A code representing the port where the ship arrives.
+IMO0109,Port of arrival name,The name and country of the port where the ship arrives.
+IMO0111,"Port of departure, coded",The code representing the port from which the ship departs.
+IMO0112,Port of departure name,A name and country of the port from which the ship departs.
+IMO0126,Previous port of call name,The name and country of a previous port of call.
+IMO0127,"Previous port of call, coded",A code representing a previous port of call.
+IMO0128,"Authenticator role, coded",A code providing the role of the person attesting to the validity of the transmitted information.
+IMO0136,Ship call sign,The ship’s identification used primarily for radio communications.
+IMO0138,"Ship flag State, coded",A code representing the nationality of the ship shown on its IMO ship’s certificate.
+IMO0139,Ship gross tonnage,The gross tonnage shown on the ship's International Tonnage Certificate or other document issued by the flag State or recognized organization.
+IMO0140,Ship IMO number,The ship identification number shown on its IMO ship’s certificate.
+IMO0142,Ship name,The ship’s name shown on the IMO ship’s certificates.
+IMO0143,Ship net tonnage,The net tonnage shown on the ship's International Tonnage Certificate or other document issued by the Flag State or Recognized Organization.
+IMO0145,Certificate issue date,The date the certificate was issued.
+IMO0147,"Ship registry port, coded",A code representing the port of registry shown on the IMO ship certificate.
+IMO0148,Ship registry port name,The name and country for the Port of Registry shown on the IMO ship certificate.
+IMO0153,Ship stay reference number,Reference number assigned by a port authority to the stay of a ship in the port.
+IMO0160,"Ship type, coded",The type of the ship.
+IMO0168,Subsequent port of call name,The name and country of a scheduled subsequent port of call.
+IMO0169,"Subsequent port of call, coded",A code representing a scheduled subsequent port of call.
+IMO0191,Voyage number,An operator-assigned reference code for the ship's voyage.
+IMO0196,General declaration remarks,"Statement of any other information relevant to ship arrival, stay or departure."
+IMO0305,Message function code,Code providing the function of a message.
+IMO0306,Certificate identifier,"The identifier of the certificate, defined by the issuing organization."
+IMO0574,Agent P.O. Box,The post office box of the referenced agent at port.
+IMO0580,Master given name,The given name of the person in charge of the ship.
+IMO0581,Agent contact given name,The agent's employee contact given name.
+IMO0582,Authenticator given name,The given name of the person attesting to the validity of the transmitted information.
