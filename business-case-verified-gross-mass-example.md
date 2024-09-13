@@ -31,27 +31,39 @@ The dataset for the VGM under the IMO Reference Model is as follows:
 
 | Data Number	| Data Element	| Definition |
 | --- | --- | --- |
-| IMO0498 | Equipment type and size, coded | Code specifying the characteristics, i.e. size and type of transport equipment. |
-| IMO0499	| Gross mass verification number | The identification number of verification for the verified gross mass. |
-| IMO0500	| Gross mass verified date	| Date and time of determining the verified gross mass of container.|
-| IMO0501	| Gross mass verifying country, coded |	The code of the country where the verified gross mass is determined.|
-| IMO0502	| Gross mass verifying party identifier	| The identifier of the gross mass verifying party. |
-| IMO0503	| Gross mass verifying party name	| The name of the responsible shipper or third party verifying the gross mass.|
-| IMO0504	| Gross mass verifying person family name	| The family name of person in charge of verifying the gross mass authorized by the shipper.|
-| IMO0505	| VGM measuring method, coded	| A code representing the Gross Mass Verifying Method.|
-| IMO0506	| Verified Gross Mass	| The Verified Gross Mass of the container (VGM).|
-| IMO0507	| VGM document  issue date and time	| The date and time of issuing the document for verified gross mass.|
-| IMO0508	| Booking reference number | Booking reference assigned by carrier.|
-| IMO0509	| Seal identification number | The identification number of the seal affixed to the container.|
-| IMO0529	| Gross mass verifying party email | The email address for the referenced gross mass verifying party.|
-| IMO0530	| Gross mass verifying party landline number	| The landline telephone number for the referenced gross mass verifying party.|
-| IMO0531	| Gross mass verifying party mobile number	| The mobile number for the referenced gross mass verifying party.|
-| IMO0532	| Gross mass verifying party country code	| A code representing the country address of the referenced gross mass verifying party.|
-| IMO0533	| Gross mass verifying party street and number	| The street and number of the referenced gross mass verifying party.|
-| IMO0534	| Gross mass verifying party city	| The city of the referenced gross mass verifying party.|
-| IMO0535	| Gross mass verifying party postcode	| An alphanumerical code representing the postal area of the referenced verifying party.|
-| IMO0579	| Gross mass verifying party P.O. Box	| The post office box of the referenced gross mass verifying party.|
-| IMO0585	| Gross mass verifying person given name	| The given name of person in charge of verifying the gross mass authorized by the shipper.|
+IMO0021|Transport equipment identification number|"Marks (letters and/or numbers) which identify a transport equipment (e.g. containers, semi-trailers, swap bodies)."
+IMO0031|IMO Company number|The unique company identification number shown in the Continuous Synopsis Record (CSR).
+IMO0032|Ship company name|The name of the Company.
+IMO0113|"Port of discharge, coded"|The code representing the port of discharge for the referenced cargo.
+IMO0114|Port of discharge name|The name and country of the port of discharge for the referenced cargo.
+IMO0117|"Port of loading, coded"|The code representing the port of loading for the referenced cargo.
+IMO0118|Port of loading name|The name and country of the port where the cargo was loaded onboard the ship.
+IMO0136|Ship call sign|The ship’s identification used primarily for radio communications.
+IMO0140|Ship IMO number|The ship identification number shown on its IMO ship’s certificate.
+IMO0142|Ship name|The ship’s name shown on the IMO ship’s certificates.
+IMO0170|Transport contract number|A reference number to identify a document evidencing a transport contract (e.g. Bill of Lading).
+IMO0191|Voyage number|An operator-assigned reference code for the ship's voyage.
+IMO0498|"Equipment type and size, coded"|"Code specifying the characteristics| i.e. size and type of transport equipment."
+IMO0499|Gross mass verification number|The identification number of verification for the verified gross mass.
+IMO0500|Gross mass verified date|Date and time of determining the verified gross mass of container.
+IMO0501|"Gross mass verifying country, coded"|The code of the country where the verified gross mass is determined.
+IMO0502|Gross mass verifying party identifier|The identifier of the gross mass verifying party.
+IMO0503|Gross mass verifying party name|The name of the responsible shipper or third party verifying the gross mass.
+IMO0504|Gross mass verifying person family name|The family name of person in charge of verifying the gross mass authorized by the shipper.
+IMO0505|"VGM measuring method, coded"|A code representing the Gross Mass Verifying Method.
+IMO0506|Verified Gross Mass|The Verified Gross Mass of the container (VGM).
+IMO0507|VGM document  issue date and time|The date and time of issuing the document for verified gross mass.
+IMO0508|Booking reference number|Booking reference assigned by carrier.
+IMO0509|Seal identification number|The identification number of the seal affixed to the container.
+IMO0529|Gross mass verifying party email|The email address for the referenced gross mass verifying party.
+IMO0530|Gross mass verifying party landline number|The landline telephone number for the referenced gross mass verifying party.
+IMO0531|Gross mass verifying party mobile number|The mobile number for the referenced gross mass verifying party.
+IMO0532|Gross mass verifying party country code|A code representing the country address of the referenced gross mass verifying party.
+IMO0533|Gross mass verifying party street and number|The street and number of the referenced gross mass verifying party.
+IMO0534|Gross mass verifying party city|The city of the referenced gross mass verifying party.
+IMO0535|Gross mass verifying party postcode|An alphanumerical code representing the postal area of the referenced verifying party.
+IMO0579|Gross mass verifying party P.O. Box|The post office box of the referenced gross mass verifying party.
+IMO0585|Gross mass verifying person given name|The given name of person in charge of verifying the gross mass authorized by the shipper.
 
 ## IMO Data Structure 
 A suggested structure for the VGM dataset would be as follows: 
