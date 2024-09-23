@@ -27,6 +27,7 @@ These guidelines contain other information processes related to port calls, as w
 A high level sequence diagram for the JIT process is as follows
 
 ![image](https://github.com/user-attachments/assets/ff1aefbf-25f4-419a-b1c9-7e38e114fbda)
+![image](https://github.com/user-attachments/assets/67c82bb2-a9dc-4fa3-8f8a-785d37461bd0)
 
 ## IMO Dataset
 
